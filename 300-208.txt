@@ -1,0 +1,2543 @@
+Question 1
+A network administrator needs to implement a service that enables granular control of IOS commands that can be executed. Which AAA authentication method should be selected?
+A.	TACACS+
+B.	RADIUS
+C.	Windows Active Directory
+D.	Generic LDAP
+
+Correct Answer: A
+Question 2
+An administrator can leverage which attribute to assign privileges based on Microsoft Active Directory user groups?
+A.	member of
+B.	group
+C.	class
+D.	person
+
+Correct Answer: A
+Question 3
+Cisco 802.1X phasing enables flexible deployments through the use of open, low-impact, and closed modes. What is a unique characteristic of the most secure mode?
+A.	Granular ACLs applied prior to authentication
+B.	Per user dACLs applied after successful authentication
+C.	Only EAPoL traffic allowed prior to authentication
+D.	Adjustable 802.1X timers to enable successful authentication
+
+Correct Answer: C
+
+Question 4
+A network administrator must enable which protocol extension to utilize EAP-Chaining?
+A.	EAP-FAST
+B.	EAP-TLS
+C.	MSCHAPv2
+D.	PEAP
+
+Correct Answer: A
+Question 5
+In the command 'aaa authentication default group tacacs local', how is the word 'default' defined?
+A.	Command set
+B.	Group name
+C.	Method list
+D.	Login type
+
+Correct Answer: C
+Question 6
+Changes were made to the ISE server while troubleshooting, and now all wireless certificate authentications are failing. Logs indicate an EAP failure. What is the most likely cause of the problem?
+A.	EAP-TLS is not checked in the Allowed Protocols list
+B.	Certificate authentication profile is not configured in the Identity Store
+C.	MS-CHAPv2-is not checked in the Allowed Protocols list
+D.	Default rule denies all traffic
+E.	Client root certificate is not included in the Certificate Store
+
+Correct Answer: A
+Question 7
+The NAC Agent uses which port and protocol to send discovery packets to an ISE Policy Service Node?
+A.	tcp/8905
+B.	udp/8905
+C.	http/80
+D.	https/443
+
+Correct Answer: B
+Question 8
+Which two conditions are valid when configuring ISE for posturing? (Choose two.)
+A.	Dictionary
+B.	member Of
+C.	Profile status
+D.	File
+E.	Service
+
+Correct Answer: DE
+
+
+
+
+
+Question 9
+Refer to the exhibit.
+ 
+Which three statements about the given configuration are true? (Choose three.)
+A.	TACACS+ authentication configuration is complete.
+B.	TACACS+ authentication configuration is incomplete.
+C.	TACACS+ server hosts are configured correctly.
+D.	TACACS+ server hosts are misconfigured.
+E.	The TACACS+ server key is encrypted.
+F.	The TACACS+ server key is unencrypted.
+
+Correct Answer: BCF
+Question 10
+In AAA, what function does authentication perform?
+A.	It identifies the actions that the user can perform on the device.
+B.	It identifies the user who is trying to access a device.
+C.	It identifies the actions that a user has previously taken.
+D.	It identifies what the user can access.
+
+Correct Answer: B
+
+
+
+
+
+Question 11
+Which identity store option allows you to modify the directory services that run on TCP/IP?
+A.	Lightweight Directory Access Protocol
+B.	RSA SecurID server
+C.	RADIUS
+D.	Active Directory
+
+Correct Answer: A
+Question 12
+Which term describes a software application that seeks connectivity to the network via a network access device?
+A.	authenticator
+B.	server
+C.	supplicant
+D.	WLC
+
+Correct Answer: C
+Question 13
+Cisco ISE distributed deployments support which three features? (Choose three.)
+A.	global implementation of the profiler service CoA
+B.	global implementation of the profiler service in Cisco ISE
+C.	configuration to send system logs to the appropriate profiler node
+D.	node-specific probe configuration
+E.	server-specific probe configuration
+F.	NetFlow probes
+
+Correct Answer: ACD
+
+
+Question 14
+How frequently does the Profiled Endpoints dashlet refresh data?
+A.	every 30 seconds
+B.	every 60 seconds
+C.	every 2 minutes
+D.	every 5 minutes
+
+Correct Answer: B
+Question 15
+Which command in the My Devices Portal can restore a previously lost device to the network?
+A.	Reset
+B.	Found
+C.	Reinstate
+D.	Request
+
+Correct Answer: C
+Question 16
+What is the first step that occurs when provisioning a wired device in a BYOD scenario?
+A.	The smart hub detects that the physically connected endpoint requires configuration and must use MAB to authenticate.
+B.	The URL redirects to the Cisco ISE Guest Provisioning portal.
+C.	Cisco ISE authenticates the user and deploys the SPW package.
+D.	The device user attempts to access a network URL.
+
+Correct Answer: A
+
+
+
+Question 17
+Which three features should be enabled as best practices for MAB? (Choose three.)
+A.	MD5
+B.	IP source guard
+C.	DHCP snooping
+D.	storm control
+E.	DAI
+F.	URPF
+
+Correct Answer: BCE
+Question 18
+When MAB is configured, how often are ports reauthenticated by default?
+A.	every 60 seconds
+B.	every 90 seconds
+C.	every 120 seconds
+D.	never
+
+Correct Answer: D
+Question 19
+What is a required step when you deploy dynamic VLAN and ACL assignments?
+A.	Configure the VLAN assignment.
+B.	Configure the ACL assignment.
+C.	Configure Cisco IOS Software 802.1X authenticator authorization.
+D.	Configure the Cisco IOS Software switch for ACL assignment.
+
+Correct Answer: C
+
+
+Question 20
+Which model does Cisco support in a RADIUS change of authorization implementation?
+A.	push
+B.	pull
+C.	policy
+D.	security
+
+Correct Answer: A
+Question 21
+An organization has recently deployed ISE with the latest models of Cisco switches, and it plans to deploy Trustsec to secure its infrastructure. The company also wants to allow different network access policies for different user groups (e.g., administrators). Which solution is needed to achieve these goals?
+A.	Cisco Security Group Access Policies in order to use SGACLs to control access based on SGTs assigned to different users
+B.	MACsec in Multiple-Host Mode in order to open or close a port based on a single authentication
+C.	Identity-based ACLs on the switches with user identities provided by ISE
+D.	Cisco Threat Defense for user group control by leveraging Netflow exported from the switches and login information from ISE
+
+Correct Answer: A
+
+
+
+
+
+
+Question 22
+Security Group Access requires which three syslog messages to be sent to Cisco ISE? (Choose three.)
+A.	IOS-7-PROXY_DROP
+B.	AP-1-AUTH_PROXY_DOS_ATTACK
+C.	MKA-2-MACDROP
+D.	AUTHMGR-5-MACMOVE
+E.	ASA-6-CONNECT_BUILT
+F.	AP-1-AUTH_PROXY_FALLBACK_REQ
+
+Correct Answer: BDF
+Question 23
+Which administrative role has permission to assign Security Group Access Control Lists?
+A.	System Admin
+B.	Network Device Admin
+C.	Policy Admin
+D.	Identity Admin
+
+Correct Answer: C
+
+
+
+
+
+
+
+Question 24
+Refer to the exhibit.
+ 
+If the given configuration is applied to the object-group vpnservers, during which time period are external users able to connect?
+A.	From Friday at 6:00 p.m. until Monday at 8:00 a.m.
+B.	From Monday at 8:00 a.m. until Friday at 6:00 p.m.
+C.	From Friday at 6:01 p.m. until Monday at 8:01 a.m.
+D.	From Monday at 8:01 a.m. until Friday at 5:59 p.m.
+
+Correct Answer: A
+Question 25
+Which set of commands allows IPX inbound on all interfaces?
+A.	ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface global
+B.	ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface inside
+C.	ASA1(config)# access-list IPX-Allow ethertype permit ipx ASA1(config)# access-group IPX-Allow in interface outside
+D.	ASA1(config)# access-list IPX-Allow ethertype permit ipx
+
+Correct Answer: A
+
+
+
+
+
+Question 26
+Which command enables static PAT for TCP port 25?
+A.	nat (outside,inside) static 209.165.201.3 209.165.201.226 eq smtp
+B.	nat static 209.165.201.3 eq smtp
+C.	nat (inside,outside) static 209.165.201.3 service tcp smtp smtp
+D.	static (inside,outside) 209.165.201.3 209.165.201.226 netmask 255.255.255.255
+
+Correct Answer: C
+Question 27
+Which command is useful when troubleshooting AAA Authentication between a Cisco router and the AAA server?
+A.	test aaa-server test cisco cisco123 all new-code
+B.	test aaa group7 tacacs+ auth cisco123 new-code
+C.	test aaa group tacacs+ cisco cisco123 new-code
+D.	test aaa-server tacacs+ group7 cisco cisco123 new-code
+
+Correct Answer: C
+Question 28
+In a multi-node ISE deployment, backups are not working on the MnT node. Which ISE CLI option would help mitigate this issue?
+A.	repository
+B.	ftp-url
+C.	application-bundle
+D.	collector
+
+Correct Answer: A
+
+
+Question 29
+Which command can check a AAA server authentication for server group Group1, user cisco, and password cisco555 on a Cisco ASA device?
+A.	ASA# test aaa-server authentication Group1 username cisco password cisco555
+B.	ASA# test aaa-server authentication group Group1 username cisco password cisco555
+C.	ASA# aaa-server authorization Group1 username cisco password cisco555
+D.	ASA# aaa-server authentication Group1 roger cisco555
+
+Correct Answer: A
+Question 30
+Which statement about system time and NTP server configuration with Cisco ISE is true?
+A.	The system time and NTP server settings can be configured centrally on the Cisco ISE.
+B.	The system time can be configured centrally on the Cisco ISE, but NTP server settings must be configured individually on each ISE node.
+C.	NTP server settings can be configured centrally on the Cisco ISE, but the system time must be configured individually on each ISE node.
+D.	The system time and NTP server settings must be configured individually on each ISE node.
+
+Correct Answer: D
+Question 31
+Wireless client supplicants attempting to authenticate to a wireless network are generating excessive log messages. Which three WLC authentication settings should be disabled? (Choose three.)
+A.	RADIUS Server Timeout
+B.	RADIUS Aggressive-Failover
+C.	Idle Timer
+D.	Session Timeout
+E.	Client Exclusion
+F.	Roaming
+
+Correct Answer: BCD
+Question 32
+Which two authentication stores are supported to design a wireless network using PEAP EAP-MSCHAPv2 as the authentication method? (Choose two.)
+A.	Microsoft Active Directory
+B.	ACS
+C.	LDAP
+D.	RSA Secure-ID
+E.	Certificate Server
+
+Correct Answer: AB
+Question 33
+What is another term for 802.11i wireless network security?
+A.	802.1x
+B.	WEP
+C.	TKIP
+D.	WPA
+E.	WPA2
+
+Correct Answer: E
+Question 34
+Which two EAP types require server side certificates? (Choose two.)
+A.	EAP-TLS
+B.	PEAP
+C.	EAP-MD5
+D.	LEAP
+E.	EAP-FAST
+F.	MSCHAPv2
+
+Correct Answer: AB
+Question 35
+Where is client traffic decrypted in a controller-based wireless network protected with WPA2 Security?
+A.	Access Point
+B.	Switch
+C.	Wireless LAN Controller
+D.	Authentication Server
+
+Correct Answer: A
+Question 36
+Which setting provides the best security for a WLAN and authenticates users against a centralized directory store?
+A.	WPA2 AES-CCMP and 801.X authentication
+B.	WPA2 AES-CCMP and PSK authentication
+C.	WPA2 TKIP and PSK authentication
+D.	WPA2 TKIP and 802.1X authentication
+
+Correct Answer: A
+Question 37
+What is a feature of Cisco WLC and IPS synchronization?
+A.	Cisco WLC populates the ACLs to prevent repeat intruder attacks.
+B.	The IPS automatically send shuns to Cisco WLC for an active host block.
+C.	Cisco WLC and IPS synchronization enables faster wireless access.
+D.	IPS synchronization uses network access points to provide reliable monitoring.
+
+Correct Answer: B
+
+
+Question 38
+Which two components are required to connect to a WLAN network that is secured by EAP-TLS authentication? (Choose two.)
+A.	Kerberos authentication server
+B.	AAA/RADIUS server
+C.	PSKs
+D.	CA server
+
+Correct Answer: BD
+Question 39
+Which statement about Cisco Management Frame Protection is true?
+A.	It enables stations to remain in power-save mode, except at specified intervals to receive data from the access point.
+B.	It detects spoofed MAC addresses.
+C.	It identifies potential RF jamming attacks.
+D.	It protects against frame and device spoofing.
+
+Correct Answer: D
+Question 40
+Which three statements about the Cisco wireless IPS solution are true? (Choose three.)
+A.	It enables stations to remain in power-save mode, except at specified intervals to receive data from the access point.
+B.	It detects spoofed MAC addresses.
+C.	It identifies potential RF jamming attacks.
+D.	It protects against frame and device spoofing.
+E.	It allows the WLC to failover because of congestion.
+
+Correct Answer: BCD
+Question 41
+In a basic ACS deployment consisting of two servers, for which three tasks is the primary server responsible? (Choose three.)
+A.	configuration
+B.	authentication
+C.	sensing
+D.	policy requirements
+E.	monitoring
+F.	repudiation
+
+Correct Answer: ABD
+Question 42
+In a split ACS deployment with primary and secondary servers, which three statements about AAA load handling are true? (Choose three.)
+A.	During normal operations, each server processes the full workload of both servers.
+B.	If a AAA connectivity problem occurs, the servers split the full load of authentication requests.
+C.	If a AAA connectivity problem occurs, each server processes the full workload of both servers.
+D.	During normal operations, the servers split the full load of authentication requests.
+E.	During normal operations, each server is used for specific operations, such as device administration and network admission.
+F.	The primary servers are used to distribute policy information to other servers in the enterprise.
+
+Correct Answer: CDE
+
+
+
+
+Question 43
+Which three personas can a Cisco ISE assume in a deployment? (Choose three.)
+A.	connection
+B.	authentication
+C.	administration
+D.	testing
+E.	policy service
+F.	monitoring
+
+Correct Answer: CEF
+Question 44
+Which three components comprise the Cisco ISE profiler? (Choose three.)
+A.	the sensor, which contains one or more probes
+B.	the probe manager
+C.	a monitoring tool that connects to the Cisco ISE
+D.	the trigger, which activates ACLs
+E.	an analyzer, which uses configured policies to evaluate endpoints
+F.	a remitter tool, which fails over to redundant profilers
+
+Correct Answer: ABE
+Question 45
+Which three statements about the Cisco ISE profiler are true? (Choose three.)
+A.	It sends endpoint data to AAA servers.
+B.	It collects endpoint attributes.
+C.	It stores MAC addresses for endpoint systems.
+D.	It monitors and polices router and firewall traffic.
+E.	It matches endpoints to their profiles.
+F.	It stores endpoints in the Cisco ISE database with their profiles.
+
+Correct Answer: BEF
+Question 46
+From which location can you run reports on endpoint profiling?
+A.	Reports > Operations > Catalog > Endpoint
+B.	Operations > Reports > Catalog > Endpoint
+C.	Operations > Catalog > Reports > Endpoint
+D.	Operations > Catalog > Endpoint
+
+Correct Answer: B
+Question 47
+Which two services are included in the Cisco ISE posture service? (Choose two.)
+A.	posture administration
+B.	posture run-time
+C.	posture monitoring
+D.	posture policing
+E.	posture catalog
+
+Correct Answer: AB
+Question 48
+What is a requirement for posture administration services in Cisco ISE?
+A.	at least one Cisco router to store Cisco ISE profiling policies
+B.	Cisco NAC Agents that communicate with the Cisco ISE server
+C.	an ACL that points traffic to the Cisco ISE deployment
+D.	the advanced license package must be installed
+
+Correct Answer: D
+
+
+Question 49
+Which two statements about Cisco NAC Agents that are installed on clients that interact with the Cisco ISE profiler are true? (Choose two.)
+A.	They send endpoint data to AAA servers.
+B.	They collect endpoint attributes.
+C.	They interact with the posture service to enforce endpoint security policies.
+D.	They block access from the network through noncompliant endpoints.
+E.	They store endpoints in the Cisco ISE with their profiles.
+F.	They evaluate clients against posture policies, to enforce requirements.
+
+Correct Answer: CF
+Question 50
+What steps must you perform to deploy a CA-signed identify certificate on an ISE device?
+A.	1. Download the CA server certificate.
+2. Generate a signing request and save it as a file.
+3. Access the CA server and submit the ISE request.
+4. Install the issued certificate on the ISE.
+B.	1. Download the CA server certificate.
+2. Generate a signing request and save it as a file.
+3. Access the CA server and submit the ISE request.
+4. Install the issued certificate on the CA server.
+C.	1. Generate a signing request and save it as a file.
+2. Download the CA server certificate.
+3. Access the ISE server and submit the CA request.
+4. Install the issued certificate on the CA server.
+D.	1. Generate a signing request and save it as a file.
+2. Download the CA server certificate.
+3. Access the CA server and submit the ISE request.
+
+Correct Answer: D
+
+Question 51
+What implementation must be added to the WLC to enable 802.1X and CoA for wireless endpoints?
+A.	the ISE
+B.	an ACL
+C.	a router
+D.	a policy server
+
+Correct Answer: A
+Question 52
+What are the initial steps must you perform to add the ISE to the WLC?
+A.	1. With a Web browser, establish an HTTP connection to the WLC pod.
+2. Navigate to Administration > Authentication > New.
+3. Enter server values to begin the configuration.
+B.	1. With a Web browser, establish an FTP connection to the WLC pod.
+2. Navigate to Security > Administration > New.
+3. Add additional security features for FTP authentication.
+C.	1. With a Web browser, establish an HTTP connection to the WLC pod.
+2. Navigate to Authentication > New.
+3. Enter ACLs and Authentication methods to begin the configuration.
+D.	1. With a Web browser connect, establish an HTTPS connection to the WLC pod.
+2. Navigate to Security > Authentication > New.
+
+Correct Answer: D
+Question 53
+Which command configures console port authorization under line con 0?
+A.	authorization default|WORD
+B.	authorization exec line con 0|WORD
+C.	authorization line con 0|WORD
+D.	authorization exec default|WORD
+
+Correct Answer: D
+Question 54
+Which two statements about administrative access to the ACS Solution Engine are true? (Choose two.)
+A.	The ACS Solution Engine supports command-line connections through a serial-port connection.
+B.	For GUI access, an administrative GUI user must be created with the add-guiadmin command.
+C.	The ACS Solution Engine supports command-line connections through an Ethernet interface.
+D.	An ACL-based policy must be configured to allow administrative-user access.
+E.	GUI access to the ACS Solution Engine is not supported.
+
+Correct Answer: BD
+Question 55
+What is the purpose of the Cisco ISE Guest Service Sponsor Portal?
+A.	It tracks and stores user activity while connected to the Cisco ISE.
+B.	It securely authenticates guest users for the Cisco ISE Guest Service.
+C.	It filters guest users from account holders to the Cisco ISE.
+D.	It creates and manages Guest User accounts.
+
+Correct Answer: D
+Question 56
+What is the effect of the ip http secure-server command on a Cisco ISE?
+A.	It enables the HTTP server for users to connect on the command line.
+B.	It enables the HTTP server for users to connect using Web-based authentication.
+C.	It enables the HTTPS server for users to connect using Web-based authentication.
+D.	It enables the HTTPS server for users to connect on the command line.
+
+Correct Answer: C
+Question 57
+When RADIUS NAC and AAA Override are enabled for WLC on a Cisco ISE, which two statements about RADIUS NAC are true? (Choose two.)
+A.	It will return an access-accept and send the redirection URL for all users.
+B.	It establishes secure connectivity between the RADIUS server and the ISE.
+C.	It allows the ISE to send a CoA request that indicates when the user is authenticated.
+D.	It is used for posture assessment, so the ISE changes the user profile based on posture result.
+E.	It allows multiple users to authenticate at the same time.
+
+Correct Answer: CD
+Question 58
+What are the initial steps to configure an ACS as a TACACS server?
+A.	1. Choose Network Devices and AAA Clients > Network Resources.
+2. Click Create.
+B.	1. Choose Network Resources > Network Devices and AAA Clients.
+2. Click Create.
+C.	1. Choose Network Resources > Network Devices and AAA Clients.
+2. Click Manage.
+D.	1. Choose Network Devices and AAA Clients > Network Resources.
+
+Correct Answer: B
+
+
+
+
+
+
+Question 59
+Which two statements about administrative access to the Cisco Secure ACS SE are true? (Choose two.)
+A.	The Cisco Secure ACS SE supports command-line connections through a serial-port connection.
+B.	For GUI access, an administrative GUI user must be created by using the add-guiadmin command.
+C.	The Cisco Secure ACS SE supports command-line connections through an Ethernet interface.
+D.	An ACL-based policy must be configured to allow administrative-user access.
+E.	GUI access to the Cisco Secure ASC SE is not supported.
+
+Correct Answer: BD
+Question 60
+When RADIUS NAC and AAA Override are enabled for a WLC on a Cisco ISE, which two statements about RADIUS NAC are true? (Choose two.)
+A.	It returns an access-accept and sends the redirection URL for all users.
+B.	It establishes secure connectivity between the RADIUS server and the Cisco ISE.
+C.	It allows the Cisco ISE to send a CoA request that indicates when the user is authenticated.
+D.	It is used for posture assessment, so the Cisco ISE changes the user profile based on posture result.
+E.	It allows multiple users to authenticate at the same time.
+
+Correct Answer: CD
+
+
+
+
+Correct Answer: C
+Question 62
+In an 802.1X authorization process, a network access device provides which three functions? (Choose three.)
+A.	Filters traffic prior to authentication
+B.	Passes credentials to authentication server
+C.	Enforces policy provided by authentication server
+D.	Hosts a central web authentication page
+E.	Confirms supplicant protocol compliance
+F.	Validates authentication credentials
+
+Correct Answer: ABC
+Question 63
+Which two switchport commands enable MAB and allow non-802.1X capable devices to immediately run through the MAB process? (Choose two.)
+A.	authentication order mab dot1x
+B.	authentication order dot1x mab
+C.	no authentication timer
+D.	dot1x timeout tx-period
+E.	authentication open
+F.	mab
+
+Correct Answer: AF
+Question 64
+Which two attributes must match between two Cisco ASA devices to properly enable high availability? (Choose two.)
+A.	model, interface configuration, and RAM
+B.	major and minor software release
+C.	tcp dead-peer detection protocol
+D.	802.1x authentication identity
+
+Correct Answer: AB
+Question 65
+What are two client-side requirements of the NAC Agent and NAC Web Agent installation? (Choose two.)
+A.	Administrator workstation rights
+B.	Active Directory Domain membership
+C.	Allowing of web browser activex installation
+D.	WSUS service running
+
+Correct Answer: AC
+Question 66
+Which three algorithms should be avoided due to security concerns? (Choose three.)
+A.	DES for encryption
+B.	SHA-1 for hashing
+C.	1024-bit RSA
+D.	AES GCM mode for encryption
+E.	HMAC-SHA-1
+F.	256-bit Elliptic Curve Diffie-Hellman
+G.	2048-bit Diffie-Hellman
+
+Correct Answer: ABC
+Question 68
+Which statement about IOS accounting is true?
+A.	A named list of AAA methods must be defined.
+B.	A named list of accounting methods must be defined.
+C.	Authorization must be configured before accounting.
+D.	A named list of tracking methods must be defined.
+
+Correct Answer: C
+
+Question 69
+Which effect does the ip http secure-server command have on a Cisco ISE?
+A.	It enables the HTTP server for users to connect on the command line.
+B.	It enables the HTTP server for users to connect by using web-based authentication.
+C.	It enables the HTTPS server for users to connect by using web-based authentication.
+D.	It enables the HTTPS server for users to connect on the command line.
+
+Correct Answer: C
+
+
+Question 70
+The NAC Agent v4.9.x uses which ports and protocols to communicate with an ISE Policy Service Node?
+A.	tcp/8905, http/80, ftp/21
+B.	tcp/8905, http/80, https/443
+C.	udp/8905, telnet/23, https/443
+D.	udp/8906, http/80, https/443
+
+Correct Answer: B
+Question 71
+Which two are valid ISE posture conditions? (Choose two.)
+A.	Dictionary
+B.	memberOf
+C.	Profile status
+D.	File
+E.	Service
+
+Correct Answer: DE
+Question 72
+A network engineer is configuring HTTP based CWA on a switch. Which three configuration elements are required? (Choose three.)
+A.	HTTP server enabled
+B.	Radius authentication on the port with MAB
+C.	Redirect access-list
+D.	Redirect-URL
+E.	HTTP secure server enabled
+F.	Radius authentication on the port with 802.1x
+G.	Pre-auth port based access-list
+
+Correct Answer: ABC
+Question 73
+Which three statements describe differences between TACACS+ and RADIUS? (Choose three.)
+A.	RADIUS encrypts the entire packet, while TACACS+ encrypts only the password.
+B.	TACACS+ encrypts the entire packet, while RADIUS encrypts only the password.
+C.	RADIUS uses TCP, while TACACS+ uses UDP.
+D.	TACACS+ uses TCP, while RADIUS uses UDP.
+E.	RADIUS uses ports 1812 and 1813, while TACACS+ uses port 49.
+F.	TACACS+ uses ports 1812 and 1813, while RADIUS uses port 49
+
+Correct Answer: BDE
+Question 74
+Which two identity store options allow you to authorize based on group membership? (Choose two).
+A.	Lightweight Directory Access Protocol
+B.	RSA SecurID server
+C.	RADIUS
+D.	Active Directory
+
+Correct Answer: AD
+Question 75
+What attribute could be obtained from the SNMP query probe?
+A.	FQDN
+B.	CDP
+C.	DHCP class identifier
+D.	User agent
+
+Correct Answer: B
+
+Question 76
+What is a required configuration step for an 802.1X capable switch to support dynamic VLAN and ACL assignments?
+A.	Configure the VLAN assignment.
+B.	Configure the ACL assignment.
+C.	Configure 802.1X authenticator authorization.
+D.	Configure port security on the switch port.
+
+Correct Answer: C
+Question 77
+Which network component would issue the CoA?
+A.	switch
+B.	endpoint
+C.	Admin Node
+D.	Policy Service Node
+
+Correct Answer: D
+
+
+
+
+
+
+
+
+
+
+Question 78
+What steps must you perform to deploy a CA-signed identity certificate on an ISE device?
+A.	1. Download the CA server certificate and install it on ISE.
+2. Generate a signing request and save it as a file.
+3. Access the CA server and submit the CA request.
+4. Install the issued certificate on the ISE.
+B.	1. Download the CA server certificate and install it on ISE.
+2. Generate a signing request and save it as a file.
+3. Access the CA server and submit the CSR.
+4. Install the issued certificate on the CA server.
+C.	1. Generate a signing request and save it as a file.
+2. Download the CA server certificate and install it on ISE.
+3. Access the ISE server and submit the CA request.
+4. Install the issued certificate on the CA server.
+D.	1. Generate a signing request and save it as a file.
+2. Download the CA server certificate and install it on ISE.
+3. Access the CA server and submit the CSR.
+
+Correct Answer: D
+Question 79
+An organization has recently deployed ISE with Trustsec capable Cisco switches and would like to allow differentiated network access based on user groups.
+Which solution is most suitable for achieving these goals?
+A.	Cyber Threat Defense for user group control by leveraging Netflow exported from the Cisco switches and identity information from ISE
+B.	MACsec in Multiple-Host Mode in order to encrypt traffic at each hop of the network infrastructure
+C.	Identity-based ACLs preconfigured on the Cisco switches with user identities provided by ISE
+D.	Cisco Security Group Access Policies to control access based on SGTs assigned to different user groups
+
+Correct Answer: D
+Question 80
+Which three are required steps to enable SXP on a Cisco ASA? (Choose three).
+A.	configure AAA authentication
+B.	configure password
+C.	issue the aaa authorization command aaa-server group command
+D.	configure a peer
+E.	configure TACACS
+F.	issue the cts sxp enable command
+
+Correct Answer: BDF
+Question 81
+Which three network access devices allow for static security group tag assignment? (Choose three.)
+A.	intrusion prevention system
+B.	access layer switch
+C.	data center access switch
+D.	load balancer
+E.	VPN concentrator
+F.	wireless LAN controller
+
+Correct Answer: BCE
+Question 82
+Which option is required for inline security group tag propagation?
+A.	Cisco Secure Access Control System
+B.	hardware support
+C.	Security Group Tag Exchange Protocol (SXP) v4
+D.	Cisco Identity Services Engine
+
+Correct Answer: B
+Question 83
+Which two fields are characteristics of IEEE 802.1AE frame? (Choose two.)
+A.	destination MAC address
+B.	source MAC address
+C.	802.1AE header in EtherType
+D.	security group tag in EtherType
+E.	integrity check value
+F.	CRC/FCS
+
+Correct Answer: CE
+Question 84
+Which two options are valid for configuring IEEE 802.1AE MACSec between switches in a TrustSec network? (Choose two.)
+A.	manually on links between supported switches
+B.	in the Cisco Identity Services Engine
+C.	in the global configuration of a TrustSec non-seed switch
+D.	dynamically on links between supported switches
+E.	in the Cisco Secure Access Control System
+F.	in the global configuration of a TrustSec seed switch
+
+Correct Answer: AD
+
+
+
+
+
+
+
+Question 85
+Which three pieces of information can be found in an authentication detail report? (Choose three.)
+A.	DHCP vendor ID
+B.	user agent string
+C.	the authorization rule matched by the endpoint
+D.	the EAP method the endpoint is using
+E.	the RADIUS username being used
+F.	failed posture requirement
+
+Correct Answer: CDE
+Question 86
+Certain endpoints are missing DHCP profiling data.
+Which option describes what can be used to determine if DHCP requests from clients are reaching Cisco ISE?
+A.	output of show interface gigabitEthernet 0 from the CLI
+B.	output of debug logging all 7 from the CLI
+C.	output of show logging application profiler.log from the CLI
+D.	the TCP dump diagnostic tool through the GUI
+E.	the posture troubleshooting diagnostic tool through the GUI
+
+Correct Answer: D
+Question 87
+Which debug command on a Cisco WLC shows the reason that a client session was terminated?
+A.	debug dot11 state enable
+B.	debug dot1x packet enable
+C.	debug client mac addr
+D.	debug dtls event enable
+E.	debug ap enable cisco ap
+
+Correct Answer: C
+Question 88
+Which two identity databases are supported when PEAP-MSCHAPv2 is used as EAP type? (Choose two.)
+A.	Windows Active Directory
+B.	LDAP
+C.	RADIUS token server
+D.	internal endpoint store
+E.	internal user store
+F.	certificate authentication profile
+G.	RSA SecurID
+
+Correct Answer: AE
+Question 89
+Which two Cisco Catalyst switch interface commands allow only a single voice device and a single data device to be connected to the IEEE 802.1X-enabled interface? (Choose two.)
+A.	authentication host-mode single-host
+B.	authentication host-mode multi-domain
+C.	authentication host-mode multi-host
+D.	authentication host-mode multi-auth
+
+Correct Answer: AB
+Question 90
+Which RADIUS attribute is used primarily to differentiate an IEEE 802.1x request from a Cisco MAB request?
+A.	RADIUS Attribute (5) NAS-Port
+B.	RADIUS Attribute (6) Service-Type
+C.	RADIUS Attribute (7) Framed-Protocol
+D.	RADIUS Attribute (61) NAS-Port-Type
+
+Correct Answer: B
+Question 91
+Which authorization method is the Cisco best practice to allow endpoints access to the Apple App store or Google Play store with Cisco WLC software version 7.6 or newer?
+A.	dACL
+B.	DNS ACL
+C.	DNS ACL defined in Cisco ISE
+D.	redirect ACL
+
+Correct Answer: B
+Question 92
+Which time allowance is the minimum that can be configured for posture reassessment interval?
+A.	5 minutes
+B.	20 minutes
+C.	60 minutes
+D.	90 minutes
+
+Correct Answer: C
+Question 93
+Which advanced authentication setting is needed to allow an unknown device to utilize Central WebAuth?
+A.	If Authentication failed > Continue
+B.	If Authentication failed > Drop
+C.	If user not found > Continue
+D.	If user not found > Reject
+
+Correct Answer: C
+
+
+Question 94
+Which option restricts guests from connecting more than one device at a time?
+A.	Guest Portal policy > Set Device registration portal limit
+B.	Guest Portal Policy > Set Allow only one guest session per user
+C.	My Devices Portal > Set Maximum number of devices to register
+D.	Multi-Portal Policy > Guest users should be able to do device registration
+
+Correct Answer: B
+Question 95
+In Cisco ISE, which two actions can be taken based on matching a profiler policy? (Choose two).
+A.	exception
+B.	network scan (NMAP)
+C.	delete endpoint
+D.	automatically remediate
+E.	create matching identity group
+
+Correct Answer: AB
+Question 96
+Which statement about the Cisco ISE BYOD feature is true?
+A.	Use of SCEP/CA is optional.
+B.	BYOD works only on wireless access.
+C.	Cisco ISE needs to integrate with MDM to support BYOD.
+D.	Only mobile endpoints are supported.
+
+Correct Answer: A
+
+
+
+Question 97
+What user rights does an account need to join ISE to a Microsoft Active Directory domain?
+A.	Create and Delete Computer Objects
+B.	Domain Admin
+C.	Join and Leave Domain
+D.	Create and Delete User Objects
+
+Correct Answer: A
+Question 98
+A network administrator must enable which protocol to utilize EAP-Chaining?
+A.	EAP-FAST
+B.	EAP-TLS
+C.	MSCHAPv2
+D.	PEAP
+
+Correct Answer: A
+Question 99
+The corporate security policy requires multiple elements to be matched in an authorization policy. Which elements can be combined to meet the requirement?
+A.	Device registration status and device activation status
+B.	Network access device and time condition
+C.	User credentials and server certificate
+D.	Built-in profile and custom profile
+
+Correct Answer: B
+
+
+Question 100
+A network administrator needs to determine the ability of existing network devices to deliver key BYOD services. Which tool will complete a readiness assessment and outline hardware and software capable and incapable devices?
+A.	Prime Infrastructure
+B.	Network Control System
+C.	Cisco Security Manager
+D.	Identity Services Engine
+
+Correct Answer: A
+Question 101
+Which EAP method uses a modified version of the MS-CHAP authentication protocol?
+A.	EAP-POTP
+B.	EAP-TLS
+C.	LEAP
+D.	EAP-MD5
+
+Correct Answer: C
+Question 102
+Under which circumstance would an inline posture node be deployed?
+A.	When the NAD does not support CoA
+B.	When the NAD cannot support the number of connected endpoints
+C.	When a PSN is overloaded
+D.	To provide redundancy for a PSN
+
+Correct Answer: A
+
+
+Question 103
+Which Cisco ISE 1.x protocol can be used to control admin access to network access devices?
+A.	TACACS+
+B.	RADIUS
+C.	EAP
+D.	Kerberos
+
+Correct Answer: B
+Question 104
+A user is on a wired connection and the posture status is noncompliant.
+Which state will their EPS session be placed in?
+A.	disconnected
+B.	limited
+C.	no access
+D.	quarantined
+
+Correct Answer: D
+Question 105
+Which three posture states can be used for authorization rules? (Choose three.)
+A.	unknown
+B.	known
+C.	noncompliant
+D.	quarantined
+E.	compliant
+F.	no access
+G.	limited
+
+Correct Answer: ACE
+Question 106
+Which two Cisco ISE administration options are available in the Default Posture Status setting? (Choose two.)
+A.	Unknown
+B.	Compliant
+C.	FailOpen
+D.	FailClose
+E.	Noncompliant
+
+Correct Answer: BE
+Question 107
+Which two portals can be configured to use portal FQDN? (Choose two.)
+A.	admin
+B.	sponsor
+C.	guest
+D.	my devices
+E.	monitoring and troubleshooting
+
+Correct Answer: BD
+Question 108
+Which five portals are provided by PSN? (Choose five.)
+A.	guest
+B.	sponsor
+C.	my devices
+D.	blacklist
+E.	client provisioning
+F.	admin
+G.	monitoring and troubleshooting
+
+Correct Answer: ABCDE
+Question 109
+When you add a new PSN for guest access services, which two options must be enabled under deployment settings? (Choose two.)
+A.	Admin
+B.	Monitoring
+C.	Policy Service
+D.	Session Services
+E.	Profiling
+
+Correct Answer: CD
+Question 110
+In Cisco ISE, which probe must be enabled to collect profiling data using Device Sensor?
+A.	RADIUS
+B.	SNMPQuery
+C.	SNMPTrap
+D.	Network Scan
+E.	Syslog
+
+Correct Answer: A
+Question 111
+Which two profile attributes can be collected by a Cisco Catalyst Switch that supports Device Sensor? (Choose two.)
+A.	LLDP agent information
+B.	user agent
+C.	DHCP options
+D.	open ports
+E.	operating system
+F.	trunk ports
+
+Correct Answer: AC
+Question 112
+Which two profile attributes can be collected by a Cisco Wireless LAN Controller that supports Device Sensor? (Choose two.)
+A.	LLDP agent information
+B.	user agent
+C.	DHCP options
+D.	open ports
+E.	CDP agent information
+F.	FQDN
+
+Correct Answer: BC
+Question 113
+Which statement about Cisco ISE BYOD is true?
+A.	Dual SSID allows EAP-TLS only when connecting to the secured SSID.
+B.	Single SSID does not require endpoints to be registered.
+C.	Dual SSID allows BYOD for guest users.
+D.	Single SSID utilizes open SSID to accommodate different types of users.
+E.	Single SSID allows PEAP-MSCHAPv2 for native supplicant provisioning.
+
+Correct Answer: E
+Question 114
+Which two types of client provisioning resources are used for BYOD implementations? (Choose two.)
+A.	user agent
+B.	Cisco NAC agent
+C.	native supplicant profiles
+D.	device sensor
+E.	software provisioning wizards
+
+Correct Answer: CE
+Question 115
+Which protocol sends authentication and accounting in different requests?
+A.	RADIUS
+B.	TACACS+
+C.	EAP-Chaining
+D.	PEAP
+E.	EAP-TLS
+
+Correct Answer: B
+Question 116
+You enabled the guest session limit feature on the Cisco ISE. However, end users report that the same guest can log in from multiple devices simultaneously.
+Which configuration is missing on the network access device?
+A.	RADIUS authentication
+B.	RADIUS accounting
+C.	DHCP required
+D.	AAA override
+
+Correct Answer: B
+Question 117
+A properly configured Cisco ISE Policy Service node is not receiving any profile data from a Cisco switch that runs Device Sensor.
+Which option is the most likely reason for the failure?
+A.	Syslog is configured for the Policy Administration Node.
+B.	RADIUS Accounting is disabled.
+C.	The SNMP community strings are mismatched.
+D.	RADIUS Authentication is misconfigured.
+E.	The connected endpoints support CDP but not DHCP.
+
+Correct Answer: B
+Question 118
+DRAG DROP -
+Select and Place:
+ 
+
+Correct Answer:
+ 
+Question 119
+Changes were made to the ISE server while troubleshooting, and now all wireless certificate authentications are failing. Logs indicate an EAP failure. What are the two possible causes of the problem? (Choose two.)
+A.	EAP-TLS is not checked in the Allowed Protocols list
+B.	Client certificate is not included in the Trusted Certificate Store
+C.	MS-CHAPv2-is not checked in the Allowed Protocols list
+D.	Default rule denies all traffic
+E.	Certificate authentication profile is not configured in the Identity Store
+
+Correct Answer: AE
+Question 120
+Which action must an administrator take after joining a Cisco ISE deployment to an Active Directory domain?
+A.	Choose an Active Directory user.
+B.	Configure the management IP address.
+C.	Configure replication.
+D.	Choose an Active Directory group.
+
+Correct Answer: D
+Question 121
+Which feature of Cisco ASA allows VPN users to be postured against Cisco ISE without requiring an inline posture node?
+A.	RADIUS Change of Authorization
+B.	device tracking
+C.	DHCP snooping
+D.	VLAN hopping
+
+Correct Answer: A
+Question 122
+After an endpoint has completed authentication with MAB, a security violation is triggered because a different MAC address was detected. Which host mode must be active on the port?
+A.	single-host mode
+B.	multidomain authentication host mode
+C.	multiauthentication host mode
+D.	multihost mode
+
+Correct Answer: A
+Question 123
+Refer to the exhibit.
+ 
+You are configuring permissions for a new Cisco ISE standard authorization profile. If you configure the Tunnel-Private-Group-ID attribute as shown, what does the value 123 represent?
+A.	the VLAN ID
+B.	the VRF ID
+C.	the tunnel ID
+D.	the group ID
+
+Correct Answer: A
+Question 124
+Where would a Cisco ISE administrator define a named ACL to use in an authorization policy?
+A.	In the conditions of an authorization rule.
+B.	In the attributes of an authorization rule.
+C.	In the permissions of an authorization rule.
+D.	In an authorization profile associated with an authorization rule.
+
+Correct Answer: D
+
+
+
+
+Question 125
+Refer to the exhibit.
+ 
+Which URL must you enter in the External Webauth URL field to configure Cisco ISE CWA correctly?
+A.	https://ip_address:8443/guestportal/Login.action
+B.	https://ip_address:443/guestportal/Welcome.html
+C.	https://ip_address:443/guestportal/action=cpp
+D.	https://ip_address:8905/guestportal/Sponsor.action
+
+Correct Answer: A
+Question 126
+When you configure an endpoint profiling policy rule, which option describes the purpose of the minimum certainty factor?
+A.	It is compared to the total certainty metric of an individual endpoint to determine whether the endpoint can be trusted.
+B.	It is compared to the assigned certainty value of an individual endpoint in a device database to determine whether the endpoint can be trusted.
+C.	It is used to compare the policy condition to other active policies.
+D.	It is used to determine the likelihood that an endpoint is an active, trusted device on the network.
+
+Correct Answer: A
+
+
+Question 127
+You have configured a Cisco ISE 1.2 deployment for self-registration of guest users. What two options can you select from to determine when the account duration timer begins? (Choose two.)
+A.	CreateTime
+B.	FirstLogin
+C.	BeginLogin
+D.	StartTime
+
+Correct Answer: AB
+Question 128
+Which error in a redirect ACL can cause the redirection of an endpoint to the provisioning portal to fail?
+A.	The redirect ACL is blocking access to ports 80 and 443.
+B.	The redirect ACL is applied to an incorrect SVI.
+C.	The redirect ACL is blocking access to the client provisioning portal.
+D.	The redirect ACL is blocking access to Cisco ISE port 8905.
+
+Correct Answer: A
+Question 129
+Where must periodic re-authentication be configured to allow a client to come out of the quarantine state and become compliant?
+A.	on the switch port
+B.	on the router port
+C.	on the supplicant
+D.	on the controller
+
+Correct Answer: A
+
+Question 130
+Which functionality does the Cisco ISE self-provisioning flow provide?
+A.	It provides support for native supplicants, allowing users to connect devices directly to the network.
+B.	It provides the My Devices portal, allowing users to add devices to the network.
+C.	It provides support for users to install the Cisco NAC agent on enterprise devices.
+D.	It provides self-registration functionality to allow guest users to access the network.
+
+Correct Answer: A
+Question 131
+During client provisioning on a Mac OS X system, the client system fails to renew its IP address. Which change can you make to the agent profile to correct the problem?
+A.	Enable the Agent IP Refresh feature.
+B.	Enable the Enable VLAN Detect Without UI feature.
+C.	Enable CRL checking.
+D.	Edit the Discovery Host parameter to use an IP address instead of an FQDN.
+
+Correct Answer: A
+Question 132
+Where is dynamic SGT classification configured?
+A.	Cisco ISE
+B.	NAD
+C.	supplicant
+D.	RADIUS proxy
+
+Correct Answer: A
+
+
+Question 133
+What is the function of the SGACL policy matrix on a Cisco TrustSec domain with SGT Assignment?
+A.	It determines which access policy to apply to the endpoint.
+B.	It determines which switches are trusted within the TrustSec domain.
+C.	It determines the path the SGT of the packet takes when entering the Cisco TrustSec domain.
+D.	It lists all servers that are permitted to participate in the TrustSec domain.
+E.	It lists all hosts that are permitted to participate in the TrustSec domain.
+
+Correct Answer: A
+Question 134
+You are configuring SGA on a network device that is unable to perform SGT tagging. How can the device propagate SGT information?
+A.	The device can use SXP to pass IP-address-to-SGT mappings to a TrustSec-capable hardware peer.
+B.	The device can use SXP to pass MAC-address-to-STG mappings to a TrustSec-capable hardware peer.
+C.	The device can use SXP to pass MAC-address-to-IP mappings to a TrustSec-capable hardware peer.
+D.	The device can propagate SGT information in an encapsulated security payload.
+E.	The device can use a GRE tunnel to pass the SGT information to a TrustSec-capable hardware peer.
+
+Correct Answer: A
+Question 135
+Refer to the exhibit.
+ 
+The links outside the TrustSec area in the given SGA architecture are unprotected. On which two links does EAC take place? (Choose two.)
+A.	between switch 2 and switch 3
+B.	between switch 5 and host 2
+C.	between host 1 and switch 1
+D.	between the authentication server and switch 4
+E.	between switch 1 and switch 2
+F.	between switch 1 and switch 5
+
+Correct Answer: AB
+Question 136
+Which three host modes support MACsec? (Choose three.)
+A.	multidomain authentication host mode
+B.	multihost mode
+C.	multi-MAC host mode
+D.	single-host mode
+E.	dual-host mode
+F.	multi-auth host mode
+
+Correct Answer: ABD
+Question 137
+You are troubleshooting wired 802.1X authentications and see the following error: "Authentication failed: 22040 Wrong password or invalid shared secret." What should you inspect to determine the problem?
+A.	RADIUS shared secret
+B.	Active Directory shared secret
+C.	Identity source sequence
+D.	TACACS+ shared secret
+E.	Certificate authentication profile
+
+Correct Answer: A
+
+Question 138
+Refer to the exhibit.
+ 
+You are troubleshooting RADIUS issues on the network and the debug radius command returns the given output. What is the most likely reason for the failure?
+A.	An invalid username or password was entered.
+B.	The RADIUS port is incorrect.
+C.	The NAD is untrusted by the RADIUS server.
+D.	The RADIUS server is unreachable.
+E.	RADIUS shared secret does not match
+
+Correct Answer: A
+Question 139
+What are two possible reasons why a scheduled nightly backup of ISE to a FTP repository would fail? (Choose two.)
+A.	ISE attempted to write the backup to an invalid path on the FTP server.
+B.	The ISE and FTP server clocks are out of sync.
+C.	The username and password for the FTP server are invalid.
+D.	The server key is invalid or misconfigured.
+E.	TCP port 69 is disabled on the FTP server.
+
+Correct Answer: AC
+
+Question 140
+Which two statements about MAB are true? (Choose two.)
+A.	It requires a preexisting database of the MAC addresses of permitted devices.
+B.	It is unable to control network access at the edge.
+C.	If MAB fails, the device is unable to fall back to another authentication method.
+D.	It is unable to link the IP and MAC addresses of a device.
+E.	It is unable to authenticate individual users.
+
+Correct Answer: AE
+Question 141
+Which type of access list is the most scalable that Cisco ISE can use to implement network authorization enforcement for a large number of users?
+A.	downloadable access lists
+B.	named access lists
+C.	VLAN access lists
+D.	MAC address access lists
+
+Correct Answer: A
+Question 142
+When you select Centralized Web Auth in the ISE Authorization Profile, which two components host the web authentication portal? (Choose two.)
+A.	ISE
+B.	the WLC
+C.	the access point
+D.	the switch
+E.	the endpoints
+
+Correct Answer: BD
+
+Question 143
+What is the default posture status for non-agent capable devices, such as Linux and iDevices?
+A.	Unknown
+B.	Validated
+C.	Default
+D.	Compliant
+
+Correct Answer: D
+Question 144
+Your guest-access wireless network is experiencing degraded performance and excessive latency due to user saturation. Which type of rate limiting can you implement on your network to correct the problem?
+A.	per-device
+B.	per-policy
+C.	per-access point
+D.	per-controller
+E.	per-application
+
+Correct Answer: A
+Question 145
+You are installing Cisco ISE on nodes that will be used in a distributed deployment. After the initial bootstrap process, what state will the Cisco ISE nodes be in?
+A.	Remote
+B.	Policy service
+C.	Administration
+D.	Standalone
+
+Correct Answer: D
+
+Question 146
+What three changes require restarting the application service on an ISE node? (Choose three.)
+A.	Registering a node.
+B.	Changing the primary node to standalone.
+C.	Promoting the administration node.
+D.	Installing the root CA certificate.
+E.	Changing the guest portal default port settings.
+F.	Adding a network access device.
+
+Correct Answer: ABC
+Question 147
+Which default identity source is used by the MyDevices_Portal_Sequence identity source sequence?
+A.	internal users
+B.	guest users
+C.	Active Directory
+D.	internal endpoints
+E.	RADIUS servers
+
+Correct Answer: A
+Question 148
+What EAP method supports mutual certificate-based authentication?
+A.	EAP-TTLS
+B.	EAP-MSCHAP
+C.	EAP-TLS
+D.	EAP-MD5
+
+Correct Answer: C
+
+Question 149
+Which two Active Directory authentication methods are supported by Cisco ISE? (Choose two.)
+A.	MS-CHAPv2
+B.	PEAP
+C.	PPTP
+D.	EAP-PEAP
+E.	PPP
+
+Correct Answer: AB
+Question 150
+Which statement about a distributed Cisco ISE deployment is true?
+A.	It can support up to two monitoring Cisco ISE nodes for high availability.
+B.	It can support up to three load-balanced Administration ISE nodes.
+C.	Policy Service ISE nodes can be configured in a redundant failover configuration.
+D.	The Active Directory servers of Cisco ISE can be configured in a load-balanced configuration.
+
+Correct Answer: A
+Question 151
+Which Cisco ISE feature can differentiate a corporate endpoint from a personal device?
+A.	EAP chaining
+B.	PAC files
+C.	authenticated in-band provisioning
+D.	machine authentication
+
+Correct Answer: A
+
+
+Question 152
+Which configuration must you perform on a switch to deploy Cisco ISE in low-impact mode?
+A.	Configure an ingress port ACL on the switchport.
+B.	Configure DHCP snooping globally.
+C.	Configure IP-device tracking.
+D.	Configure BPDU filtering.
+
+Correct Answer: A
+Question 153
+Which profiling capability allows you to gather and forward network packets to an analyzer?
+A.	collector
+B.	spanner
+C.	retriever
+D.	aggregator
+
+Correct Answer: A
+Question 154
+Which network access device feature can you configure to gather raw endpoint data?
+A.	Device Sensor
+B.	Device Classifier
+C.	Switched Port Analyzer
+D.	Trust Anchor
+
+Correct Answer: A
+
+
+
+Question 155
+Which method does Cisco prefer to securely deploy guest wireless access in a BYOD implementation?
+A.	deploying a dedicated Wireless LAN Controller in a DMZ
+B.	configuring a guest SSID with WPA2 Enterprise authentication
+C.	configuring guest wireless users to obtain DHCP centrally from the corporate DHCP server
+D.	disabling guest SSID broadcasting
+
+Correct Answer: A
+Question 156
+Which mechanism does Cisco ISE use to force a device off the network if it is reported lost or stolen?
+A.	CoA
+B.	dynamic ACLs
+C.	SGACL
+D.	certificate revocation
+
+Correct Answer: A
+Question 157
+You discover that the Cisco ISE is failing to connect to the Active Directory server. Which option is a possible cause of the problem?
+A.	NTP server time synchronization is configured incorrectly.
+B.	There is a certificate mismatch between Cisco ISE and Active Directory.
+C.	NAT statements required for Active Directory are configured incorrectly.
+D.	The RADIUS authentication ports are being blocked by the firewall.
+
+Correct Answer: A
+
+Question 158
+Which type of remediation does Windows Server Update Services provide?
+A.	automatic remediation
+B.	administrator-initiated remediation
+C.	redirect remediation
+D.	central Web auth remediation
+
+Correct Answer: A
+Question 159
+Which three remediation actions are supported by the Web Agent for Windows? (Choose three.)
+A.	Automatic Remediation
+B.	Message text
+C.	URL Link
+D.	File Distribution
+E.	AV definition update
+F.	Launch Program
+
+Correct Answer: BCD
+Question 160
+What endpoint operating system provides native support for the SPW?
+A.	Apple iOS
+B.	Android OS
+C.	Windows 8
+D.	Mac OS X
+
+Correct Answer: A
+
+
+Question 161
+Which condition triggers wireless authentication?
+A.	NAS-Port-Type is set to IEEE 802.11.
+B.	Framed-Compression is set to None.
+C.	Service-Type is set to Framed.
+D.	Tunnel-Type is set to VLAN.
+
+Correct Answer: A
+Question 162
+Which feature enables the Cisco ISE DHCP profiling capabilities to determine and enforce authorization policies on mobile devices?
+A.	disabling the DHCP proxy option
+B.	DHCP option 42
+C.	DHCP snooping
+D.	DHCP spoofing
+
+Correct Answer: A
+Question 163
+With which two appliance-based products can Cisco Prime Infrastructure integrate to perform centralized management? (Choose two.)
+A.	Cisco Mobility Services Engine
+B.	Cisco Email Security Appliance
+C.	Cisco Wireless Location Appliance
+D.	Cisco Content Security Appliance
+E.	Cisco ISE
+
+Correct Answer: AE
+
+
+Question 164
+Which two options are EAP methods supported by Cisco ISE? (Choose two.)
+A.	EAP-FAST
+B.	EAP-TLS
+C.	EAP-MS-CHAPv2
+D.	EAP-GTC
+
+Correct Answer: AB
+Question 165
+You configured wired 802.1X with EAP-TLS on Windows machines. The ISE authentication detail report shows "EAP-TLS failed SSL/TLS handshake because of an unknown CA in the client certificates chain." What is the most likely cause of this error?
+A.	The ISE certificate store is missing a CA certificate.
+B.	The Wireless LAN Controller is missing a CA certificate.
+C.	The switch is missing a CA certificate.
+D.	The Windows Active Directory server is missing a CA certificate.
+
+Correct Answer: A
+Question 166
+What type of identity group is the Blacklist identity group?
+A.	endpoint
+B.	user
+C.	blackhole
+D.	quarantine
+E.	denied systems
+
+Correct Answer: A
+
+Question 167
+Which feature must you configure on a switch to allow it to redirect wired endpoints to Cisco ISE?
+A.	the http secure-server command
+B.	RADIUS Attribute 29
+C.	the RADIUS VSA for accounting
+D.	the RADIUS VSA for URL-REDIRECT
+
+Correct Answer: A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 168
+SIMULATION -
+The Secure-X company has recently successfully tested the 802.1X authentication deployment using the Cisco Catalyst switch and the Cisco ISEv1.2 appliance.
+Currently, each employee desktop is connected to an 802.1X enabled switch port and is able to use the Cisco AnyConnect NAM 802.1X supplicant to log in and connect to the network.
+Currently, a new testing requirement is to add a network printer to the Fa0/19 switch port and have it connect to the network. The network printer does not support 802.1X supplicant. The Fa0/19 switch port is now configured to use 802.1X authentication only.
+To support this network printer, the Fa0/19 switch port configuration needs to be edited to enable the network printer to authenticate using its MAC address. The network printer should also be on VLAN 9.
+Another network security engineer responsible for managing the Cisco ISE and has already configured all the requirements on the Cisco ISE, including adding the network printer MAC address to the Cisco ISE endpoint database and etc...
+Your task in the simulation is to access the Cisco Catalyst Switch console then use the CLI to:
+•	Enable only the Cisco Catalyst Switch Fa0/19 switch port to authenticate the network printer using its MAC address and:
+•	Ensure that MAC address authentication processing is not delayed until 802.1X fails
+•	Ensure that even if MAC address authentication passes, the switch will still perform 802.1X authentication if requested by a 802.1X supplicant
+•	Use the required show command to verify the MAC address authentication on the Fa0/19 is successful
+•	The switch enable password is Cisco
+For the purpose of the simulation, to test the network printer, assume the network printer will be unplugged then plugged back into the Fa0/19 switch port after you have finished the required configurations on the Fa0/19 switch port.
+Note: For this simulation, you will not need and do not have access to the ISE GUI. To access the switch CLI, click the Switch icon in the topology diagram
+
+
+
+Correct Answer: Review the explanation for full configuration and solution. Initial configuration for fa 0/19 that is already done:
+ 
+AAA configuration has already been done for us. We need to configure mac address bypass on this port to achieve the goal stated in the question. To do this we simply need to add this command under the interface: mab
+Then do a shut/no shut on the interface.
+Verification:
+ 
+Question 169
+SIMULATION -
+The Secure-X company has started to tested the 802.1X authentication deployment using the Cisco Catalyst 3560-X layer 3 switch and the Cisco ISEvl2 appliance. Each employee desktop will be connected to the 802.1X enabled switch port and will use the Cisco AnyConnect NAM 802.1X supplicant to log in and connect to the network.
+•	Your particular tasks in this simulation are to create a new identity source sequence named AD_internal which will first use the Microsoft Active Directory (AD1) then use the ISE Internal User database. Once the new identity source sequence has been configured, edit the existing DotlX authentication policy to use the new
+•	AD_internal identity source sequence.
+•	The Microsoft Active Directory (AD1) identity store has already been successfully configured, you just need to reference it in your configuration.
+ 
+•	In addition to the above, you are also tasked to edit the IT users authorization policy so IT users who successfully authenticated will get the permission of the existing IT_Corp authorization profile.
+•	Perform this simulation by accessing the ISE GUI to perform the following tasks:
+•	Create a new identity source sequence named AD_internal to first use the Microsoft Active Directory (AD1) then use the ISE Internal User database
+•	Edit the existing Dot1X authentication policy to use the new AD_internal identity source sequence:
+If authentication failed-reject the access request
+If user is not found in AD-Drop the request without sending a response
+If process failed-Drop the request without sending a response
+Edit the IT users authorization policy so IT users who successfully authenticated will get the permission of the existing IT_Corp authorization profile.
+To access the ISE GUI, click the ISE icon in the topology diagram. To verify your configurations, from the ISE GUI, you should also see the Authentication Succeeded event for the it1 user after you have successfully defined the DotlX authentication policy to use the Microsoft Active Directory first then use the ISE
+Internal User Database to authenticate the user. And in the Authentication Succeeded event, you should see the IT_Corp authorization profile being applied to the it1 user. If your configuration is not correct and ISE can't authenticate the user against the Microsoft Active Directory, you should see the Authentication Failed event instead for the it1 user.
+Note: If you make a mistake in the Identity Source Sequence configuration, please delete the Identity Source Sequence then re-add a new one. The edit Identity
+Source Sequence function is not implemented in this simulation.
+ 
+
+
+
+
+
+
+
+
+
+Correct Answer: Review the explanation for full configuration and solution.Step 1: create a new identity source sequence named AD_internal which will first use the Microsoft Active Directory (AD1) then use the ISE Internal User database as shown below:
+ 
+Step 2: Edit the existing Dot1x policy to use the newly created Identity Source:
+ 
+Then hit Done and save.
+Question 170
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
+ 
+ 
+Which four statements are correct regarding the event that occurred at 2014-05-07 00:19:07.004? (Choose four.)
+A.	The IT_Corp authorization profile were applied.
+B.	The it1 user was matched to the IT_Corp authorization policy.
+C.	The it1 user supplicant used the PEAP (EAP-MSCHAPv2) authentication method.
+D.	The it1 user was authenticated using MAB.
+E.	The it1 user was successfully authenticated against AD1 identity store.
+F.	The it1 user machine has been profiled as a Microsoft-Workstation.
+G.	The it1 user machine has passed all the posture assessement tests.
+
+Correct Answer: BCEF
+Here are the details shown for this event:
+ 
+
+
+Question 171
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
+ 
+ 
+Which three statements are correct regarding the events with the 20 repeat count that occurred at 2014-05-07 00:22:48.748? (Choose three.)
+A.	The device was successfully authenticated using MAB.
+B.	The device matched the Machine_Corp authorization policy.
+C.	The Print Servers authorization profile were applied.
+D.	The device was profiled as a Linksys-PrintServer.
+E.	The device MAC address is 00:14:BF:70:B5:FB.
+F.	The device is connected to the Gi0/1 switch port and the switch IP address is 10.10.2.2.
+Correct Answer: ADE
+Event Details:
+ 
+continued:
+ 
+Question 172
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
+ 
+ 
+ 
+Which two statements are correct regarding the event that occurred at 2014-05-07 00:22:48.175? (Choose two.)
+A.	The DACL will permit http traffic from any host to 10.10.2.20
+B.	The DACL will permit http traffic from any host to 10.10.3.20
+C.	The DACL will permit icmp traffic from any host to 10.10.2.20
+D.	The DACL will permit icmp traffic from any host to 10.10.3.20
+E.	The DACL will permit https traffic from any host to 10.10.3.20
+
+
+
+
+
+
+
+
+
+Correct Answer: AE
+Event Details:
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 173
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
+ 
+ 
+Which two statements are correct regarding the event that occurred at 2014-05-07 00:16:55.393? (Choose two.)
+A.	The failure reason was user entered the wrong username.
+B.	The supplicant used the PAP authentication method.
+C.	The username entered was it1.
+D.	The user was authenticated against the Active Directory then also against the ISE interal user database and both fails.
+E.	The NAS switch port where the user connected to has a MAC address of 44:03:A7:62:41:7F
+F.	The user is being authenticated using 802.1X.
+G.	The user failed the MAB.
+H.	The supplicant stopped responding to ISE which caused the failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Correct Answer: CF
+Event Details:
+  
+Question 174
+What are two actions that can occur when an 802.1X-enabled port enters violation mode? (Choose two.)
+A.	The port generates a port resistance error.
+B.	The port is prevented from authenticating indefinitely.
+C.	The port is placed in quarantine state.
+D.	The port is error disabled.
+E.	The port attempts to repair the violation.
+F.	The port drops packets from any new device that sends traffic to the port.
+
+Correct Answer: DF
+Question 175
+In a Cisco ISE deployment, which traffic is permitted by the default dynamic ACL?
+A.	all IP traffic
+B.	UPD traffic only
+C.	management traffic only
+D.	TCP traffic only
+
+Correct Answer: A
+
+
+
+
+
+
+
+
+Question 176
+Which two posture redirect ACLs and remediation DACLs must be pushed from Cisco ISE to a Cisco IOS switch if the endpoint must remediate itself? The ISE IP address is 10.201.228.76 and the IP address of the remediating server is 10.201.229.1. (Choose two.)
+A.	ip access-l ex ACL-POSTURE-REDIRECT deny udp any any eq domain deny ip any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443
+B.	POSTURE-REMEDIATION DACL permit udp any any eq domain permit tcp any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443
+C.	POSTURE-REMEDIATION DACL permit udp any any eq domain deny tcp any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443 permit ip any host 10.210.229.1
+D.	ip access-l ex ACL-POSTURE-REDIRECT deny udp any any eq domain deny ip any host 10.201.228.76 deny ip any host 10.210.229.1 permit tcp any any eq 80 permit tcp any any eq 443
+E.	POSTURE-REMEDIATION DACL permit udp any any eq domain deny tcp any host 10.201.228.76 deny ip any host 10.210.229.1 permit tcp any any eq 80 permit tcp any any eq 443
+F.	ip access-l ex ACL-POSTURE-REDIRECT deny upd any any eq domain permit ip any host 10.201.228.76 permit ip any host 10.201.229.1
+
+Correct Answer: BD
+Question 177
+Which statement about the CAK is true?
+A.	It is the key that is used to discover MACsec peers and perform key negotiation between the peers.
+B.	It is the key that is used to negotiate session encryption keys.
+C.	It is the secret key that encrypts traffic during the connection.
+D.	It is the master key that generates the other keys that MACsec requires.
+E.	Failed MACsec connections fail back to MAB by default.
+
+Correct Answer: D
+Question 178
+Which devices support download of environmental data and IP from Cisco ISE to STG binding in their SGFW implementation?
+A.	Cisco ISR G3 devices with ZBFW
+B.	Cisco ASR devices with ZBFW
+C.	Cisco ASA devices
+D.	Cisco ISR G2 and later devices with ZBFW
+
+Correct Answer: C
+Question 179
+Which remediation type ensures that Automatic Updates configuration is turned on Windows clients to remediate Windows clients for posture compliance?
+A.	Windows Server Update Services Remediation
+B.	Launch Program Remediation
+C.	Windows Update Remediation
+D.	File Remediation
+E.	AS Remediation
+
+Correct Answer: C
+Question 180
+In Cisco ISE 1.3, where is BYOD enabled with dual-SSID onboarding?
+A.	BYOD portal
+B.	guest portal
+C.	client provisioning policy
+D.	client provisioning resources
+
+Correct Answer: B
+
+Question 181
+Which components must be selected for a client provisioning policy to do a Posture check on the Cisco ISE?
+A.	Configuration Wizard, Wizard Profile
+B.	Agent, Profile, Compliance Module
+C.	Operating System, Posture Requirements
+D.	Remediation Actions, Posture Requirements
+
+Correct Answer: B
+Question 182
+During BYOD flow, where does a Microsoft Windows 8.1 PC download the Network Setup Assistant from?
+A.	from Microsoft App Store
+B.	It uses the native OTA functionality
+C.	from Cisco App Store
+D.	from Cisco ISE directly
+
+Correct Answer: D
+Question 183
+Which ISE feature is used to facilitate a BYOD deployment?
+A.	self-service personal device registration and onboarding
+B.	Local Web Auth
+C.	Guest Identity Source Sequence
+D.	Guest Service Sponsor Portal
+
+Correct Answer: A
+
+
+Question 184
+Which 802.1X command ignores Access-Reject during EAP authentication?
+A.	authentication host-mode multi-domain
+B.	dot1x pae authenticator
+C.	authentication port-control auto
+D.	switchport mode access
+E.	authentication open
+
+Correct Answer: E
+Question 185
+Which attribute is needed for Cisco ISE to profile a device with HTTP probe?
+A.	sysDescr
+B.	OUI
+C.	cdp-cache-platform
+D.	host-name
+E.	dhcp-class-identifier
+F.	user agent
+
+Correct Answer: F
+Question 186
+Which configuration is required in the Cisco ISE Authentication policy to allow Central Web Authentication?
+A.	Dot1x and if authentication failed continue
+B.	Dot1x and if user not found continue
+C.	MAB and if user not found continue
+D.	MAB and if authentication failed continue
+
+Correct Answer: C
+Question 187
+Which option is the correct redirect-ACL for Wired-CWA, with 10.201.228.76 being the Cisco ISE IP address?
+A.	ip access-l ACL-WEBAUTH-REDIRECT deny udp any any eq domain deny ip any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443
+B.	ip access-l ACL-WEBAUTH-REDIRECT permit udp any any eq domain permit ip any host 10.201.228.76 deny tcp any any eq 80 permit tcp any any eq 443
+C.	ip access-l ACL-WEBAUTH-REDIRECT permit udp any any eq domain deny ip any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443
+D.	ip access-l ACL-WEBAUTH-REDIRECT deny udp any any eq domain permit tcp any host 10.201.228.76 eq 8443 deny ip any host 10.201.228.76 permit tcp any any eq 80
+
+Correct Answer: A
+Question 188
+How many bits are in a security group tag?
+A.	16
+B.	64
+C.	8
+D.	32
+
+Correct Answer: A
+Question 189
+Which option is the correct format of username in MAB authentication?
+A.	CISCO/chris
+B.	chris@cisco.com
+C.	10:41:7F:46:9F:89
+D.	host/LSB67.cisco.com
+
+Correct Answer: C
+Question 190
+Which description of the purpose of the continue option in an authentication policy rule is true?
+A.	It sends an authentication to the next subrule within the same authentication rule.
+B.	It allows Cisco ISE to proceed to the authorization policy regardless of authentication pass/fail.
+C.	It sends an authentication to the selected identity store.
+D.	It causes Cisco ISE to ignore the NAD because NAD will treat the Cisco ISE server as dead.
+E.	It allows Cisco ISE to check the list of rules in an authentication policy until there is a match.
+
+Correct Answer: B
+Question 191
+ 
+Refer to the exhibit. If the user matches the given TACACS+ profile on Cisco ISE, which command can the user enter from shell prompt on a Cisco switch?
+A.	enable
+B.	enable 10
+C.	show run
+D.	configure terminal
+
+Correct Answer: B
+Question 192
+Which option describes the purpose of configuring Native Supplicant Profile on the Cisco ISE?
+A.	It is used to register personal devices on the network.
+B.	It provides posture assessments and remediation for devices that are attempting to gain access to the corporate network.
+C.	It helps employees add and manage new devices by entering the MAC address for the device.
+D.	It enforces the use of MSCHAPv2 or EAP-TLS for 802.1X authentication.
+
+Correct Answer: A
+Question 193
+A user configured a Cisco Identity Service Engine and switch to work with downloadable access list for wired dot1x users, though it is failing to work.
+Which command must be added to address the issue?
+A.	dot1x pae authenticator
+B.	aaa authentication dot1x default group radius
+C.	ip device tracking
+D.	I dhcp snooping
+
+Correct Answer: C
+Question 194
+ 
+Refer to the exhibit. If a user with privilege 15 is matching this command set on Cisco ISE 2.0, which two commands can the user execute? (Choose three.)
+A.	show clock
+B.	ping 10.10.100.1
+C.	exit
+D.	configure terminal
+E.	show ip interface brief
+F.	show run
+
+Correct Answer: AEF
+Question 195
+Which two options must be used on Cisco ISE to enable the TACACS+ feature? (Choose two.)
+A.	TACACS Command Sets
+B.	Device Administration License
+C.	TACACS External Servers
+D.	TACACS Profiles
+E.	TACACS Server Sequence
+F.	Enable Device Admin Service
+G.	TACACS+ Authentication Settings
+
+Correct Answer: BF
+Question 196
+How many days does Cisco ISE wait before it purges a session from active session list if no RADIUS Accounting STOP message is received?
+A.	15
+B.	1
+C.	10
+D.	5
+
+Correct Answer: D
+Question 197
+Which two attributes are delivered by the DHCP probe to the Cisco ISE? (Choose two.)
+A.	MAC address
+B.	calling-station-ID
+C.	host-name
+D.	framed-IP-address
+E.	dhcp-client-identifier
+
+Correct Answer: CE
+Question 198
+Which command on the switch ensures that the Service-Type attribute is sent with all Radius authentication request?
+A.	radius-server attribute 6 on-for-login-auth
+B.	radius-server attribute 25 access-request include
+C.	radius-server attribute 31 send nas-port-detail
+D.	radius-server attribute 8 include-in-access-req
+
+Correct Answer: A
+
+
+Question 199
+Which profiling probe collects the user-agent string?
+A.	HTTP
+B.	Network Scan
+C.	NetFlow
+D.	DHCP
+
+Correct Answer: A
+Question 200
+By default, how many days does Cisco ISE wait before it purges the expired guest accounts?
+A.	10
+B.	15
+C.	1
+D.	20
+
+Correct Answer: B
+Question 201
+Which redirect-URL is pushed by Cisco ISE for posture redirect for corporate users?
+A.	https://ise1.cisco.com:8443/portal/gateway?sessionId=0A00023D0000003A239F78CC&portal=283258a0-e96e-11e4-a30a- 005056bf01c9&action=cpp&token=a1a6ea71ea8f410c2637e11ba534379e
+B.	https://ise1.cisco.com:8443/portal/gateway?sessionId=0A00023D0000003A239F78CC&portal=283258a0-e96e-11e4-a30a- 005056bf01c9&action=drw&token=a1a6ea71ea8f410c2637e11ba534379e
+C.	https://ise1.cisco.com:8443/portal/gateway?sessionId=0A00023D0000003A239F78CC&portal=283258a0-e96e-11e4-a30a- 005056bf01c9&action=mdm&token=a1a6ea71ea8f410c2637e11ba534379e
+D.	https://ise1.cisco.com:8443/portal/gateway?sessionId=0A00023D0000003A239F78CC&portal=283258a0-e96e-11e4-a30a- 005056bf01c9&action=cwa&token=a1a6ea71ea8f410c2637e11ba534379e
+
+Correct Answer: A
+Question 202
+Which operating system type needs access to the Internet to download the application that is required for BYOD on-boarding?
+A.	Android
+B.	OSX
+C.	iOS
+D.	Windows
+
+Correct Answer: A
+Question 203
+ 
+Refer to the Exhibit. In a distributed deployment of Cisco ISE, which column in Figure 1 is used to fill in the Host Name field in Figure 2 to collect captures on Cisco
+ISE while authenticating the specific endpoint?
+A.	Identity
+B.	Network Device
+C.	Endpoint ID
+D.	Server
+
+Correct Answer: D
+Question 204
+Which two options can a sponsor select to create bulk guest accounts from the sponsor portal? (Choose two.)
+A.	Yearly
+B.	Daily
+C.	Known
+D.	Monthly
+E.	Imported
+F.	Random
+
+Correct Answer: EF
+Question 205
+ 
+Refer to the exhibit. Which two things must be verified if authentication is failing with this error message? (Choose two.)
+A.	Cisco ISE EAP identity certificate is valid.
+B.	CA cert chain of Cisco ISE EAP certificate is installed on the trusted certs store of the client machine.
+C.	Cisco ISE HTTPS/admin certificate is valid.
+D.	CA cert chain of the client certificate is installed on Cisco ISE.
+E.	Cisco ISE server certificate is installed on the client.
+
+Correct Answer: AB
+Question 206
+Which option is one method for transporting security group tags throughout the network?
+A.	by embedding the SGT in the IP header
+B.	via Security Group Exchange Protocol
+C.	by enabling 802.1AE on every network device
+D.	by embedding the SGT in the 802.1Q header
+
+Correct Answer: B
+Question 207
+In Cisco ISE 1.3 and above, which two operations are allowed on Endpoint Certificates pages for issued endpoint certificates on the admin portal? (Choose two.)
+A.	revoke
+B.	delete
+C.	unrevoke
+D.	view
+E.	export
+
+Correct Answer: AD
+Question 208
+In Cisco 1.3, which feature is available to a sponsor in a sponsor group?
+A.	Allow the user to download a native supplicant profile.
+B.	Help employees add and manage new devices by entering the MAC address for the device.
+C.	Reinstate or delete devices that were registered previously.
+D.	Restrict sponsors from viewing guest passwords.
+
+Correct Answer: D
+Question 209
+An engineer is troubleshooting an issue between the switch and the Cisco ISE where the 802.1X and MAB authentication and authorization are successful. Which command does the network engineer enter on the switch to troubleshoot this issue and look for active sessions?
+A.	Show authentication sessions
+B.	Show emp session summary
+C.	Show dot1x all
+D.	Show connections detail
+
+Correct Answer: A
+Question 210
+Which two accounting types are used to implement accounting with RADIUS? (Choose two.)
+A.	Network
+B.	User
+C.	Attribute
+D.	Device
+E.	Resource
+
+Correct Answer: AE
+Question 211
+Which type of SGT propagation does a WLC in a data center require?
+A.	SXP
+B.	SGT
+C.	SGT inline
+D.	SGT Reflector
+
+Correct Answer: A
+Question 212
+A user reports that a switchs RADIUS accounting packets are not being seen on the Cisco ISE server. Which command is the user missing in the switchs configuration?
+A.	aaa accounting exec default start-stop group radius
+B.	aaa accounting network default start-stop group radius
+C.	radius-server vsa send accounting
+D.	aaa accounting resource default start-stop group radius
+
+Correct Answer: C
+
+
+Question 213
+Which three options can be pushed from a Cisco ISE server as part of a successful 802.1X authentication? (Choose three.)
+A.	Posture status
+B.	Reauthentication timer
+C.	Authentication priority
+D.	DACL
+E.	VLAN
+F.	Authentication order
+
+Correct Answer: BDE
+Question 214
+What are the four code fields which identify the type of an EAP packet?
+A.	Request, Reply, Success, Failure
+B.	Request, Response, Accept, Reject
+C.	Request, Response, Success, Failure
+D.	Request, Reply, Accept, Reject
+
+Correct Answer: C
+Question 215
+Which port does Cisco ISE use for native supplicant provisioning of a Windows machine?
+A.	TCP/UDP 8905
+B.	TCP/UDP 8909
+C.	TCP 443
+D.	TCP 8443
+
+Correct Answer: B
+Question 216
+Refer to the exhibit.
+ 
+If the host sends a packet across the Cisco TrustSec domain, where is the SGACL enforced?
+A.	At the egress router
+B.	Dynamically at the host
+C.	After the packet enters the Cisco TrustSec domain
+D.	At the ingress router.
+
+Correct Answer: A
+Question 217
+Which Smart Call Home profile is used for anonymous reporting?
+A.	Ciscotac-1
+B.	Admin-1
+C.	Isesch-1
+D.	Anon-1
+
+Correct Answer: A
+
+
+
+
+Question 218
+An engineer must limit the configuration parameters that can be executed on the Cisco ASAs deployed throughout the network. Which command allows the engineer to complete this task?
+A.	AAA-server tacacs1(inside) host 10.5.109.18 $3cr37 timeout2 ! aaa authorization command tacacs1
+B.	AAA-server tacacs1(inside) host 10.5.109.18 $3cr37 timeout2 ! aaa authentication ssh console tacacs1
+C.	AAA-server tacacs1(inside) host 10.5.109.18 $3cr37 timeout2 ! aaa authorization exec authentication-server
+D.	AAA-server tacacs1(inside) host 10.5.109.18 $3cr37 timeout2 ! aaa authentication exclude ssh
+
+Correct Answer: A
+Question 219
+An engineer is designing a BYOD environment utilizing Cisco ISE for devices that do not support native supplicants. Which portals must the security engineer configure to accomplish this task?
+A.	Client Provisioning Portals
+B.	BYOD Portals
+C.	My Devices Portals
+D.	MDM Portals
+
+Correct Answer: C
+Question 220
+Which two protocols does Cisco Prime Infrastructure use for device discovery? (Choose two.)
+A.	SNAP
+B.	LLDP
+C.	RARP
+D.	DNS
+E.	LACP
+
+Correct Answer: BD
+Question 221
+Refer to the exhibit.
+ 
+Which ISE flow mode does this diagram represent?
+A.	Closed mode
+B.	Monitor mode
+C.	Application mode
+D.	Low-impact mode
+
+Correct Answer: B
+
+
+
+Question 222
+How does the device sensor send information to a RADIUS server?
+A.	Analyzer
+B.	Authorization
+C.	Accounting
+D.	Collector
+
+Correct Answer: D
+Question 223
+What two values does Cisco recommend you adjust and test to set the optimal timeout value for your network’s specific 802.1X MAB deployment?
+A.	Max-reath-req
+B.	Supp-timeout
+C.	Max-req
+D.	Tx-period
+E.	Server-timeout
+
+Correct Answer: AD
+Question 224
+Which RADIUS attribute can be used to dynamically assign the inactivity active timer for MAB users from Cisco ISE node?
+A.	Idle-timeout attribute
+B.	Session-timeout attribute
+C.	Radius-server timeout
+D.	Termination-action attribute
+
+Correct Answer: A
+
+Question 225
+Which two additional fields are added to an Ethernet frame when implementing MACsec? (Choose two.)
+A.	Encapsulating security payload
+B.	Authentication host mode
+C.	Security tag
+D.	Authentication header
+E.	Message authentication code
+
+Correct Answer: CE
+Question 226
+Which packets are allowed on a dot1x port with no authentication open before the port goes to an authorized state?
+A.	CDP, EAPOL, STP
+B.	CDP, DHCP, DNS
+C.	DHCP, EAPOL, HTTP
+D.	CDP, EAPOL, HTTP
+
+Correct Answer: C
+Question 227
+An engineer must enable SGACL policy globally for a Cisco TrustSec –enabled routed interface. Which command must be used?
+A.	cts role-based monitor enable
+B.	cts role-based enfrocement
+C.	cts role-based sgt-caching with-enforcement
+D.	cts role-based monitor permissions from {sgt_num} to {dgt_num}][ipv4| ipv6]
+
+Correct Answer: B
+Question 228
+Refer to the exhibit.
+ 
+Which statement about the authentication protocol used in the configuration is true?
+A.	The authentication request contains only a username.
+B.	The authentication request contains only a password.
+C.	There is separate authentication and authorization request packet.
+D.	The authentication and authorization requests are grouped in a single packet.
+
+Correct Answer: B
+Question 229
+A company has implemented a dual SSID BYOD design. A provisioning SSID is used for user registration, and an employee SSID is used for company network access. Which controller option must be enabled to allow a user to switch immediately from the provisioning SSID to the employee SSID after registration has been completed?
+A.	AAA override
+B.	User Idle Timeout
+C.	Fast SSID Change
+D.	AP Fallback
+
+Correct Answer: C
+
+Question 230
+Which two options are functional components of the posture service? (Choose two.)
+A.	Quarantined policy
+B.	Posture policy
+C.	Client provisioning
+D.	Secure policy
+E.	Network provisioning
+
+Correct Answer: BC
+Question 231
+A company has implemented a dual SSID BYOD design. A provisioning SSID is used for user registration, and an employee SSID is used for company network access. How is the layer 2 security of the provisioning SSID configured?
+A.	802.1X
+B.	Open
+C.	WPA2
+D.	MAC filtering disabled
+
+Correct Answer: B
+Question 232
+A company wants to allow employees to register and manage their own devices that do not support NSP. Which portals enable this ability?
+A.	Client Provisioning Portals
+B.	MDM Portals
+C.	BYOD Portals
+D.	My Device Portals
+
+Correct Answer: B
+Question 233
+Which definition of "posturing" as it relates to a general network infrastructure and access into the internal network is true?
+A.	The process by which an end device can be monitored while connected to the network to determine if it could contain possible viruses or potential harmful programs running.
+B.	The process by which an operating system or application running on an endpoint provides critical information about the internet activity being used by an endpoint.
+C.	The process by which an operating system or application running on an endpoint provides critical information about the software that is actively running on the device.
+D.	The process when software is uploaded to an end device before it is allowed to gain access to a secure network.
+
+Correct Answer: D
+Question 234
+A customer is concerned with the use of the issued laptops even when devices are not on the corporate network. Which agent continues to be operational even when the host is not on the Cisco ISE network?
+A.	Cisco ISE Agent
+B.	Cisco NAC Agent
+C.	Cisco Custom Agent
+D.	Cisco NAC Web Agent
+
+Correct Answer: B
+
+
+
+
+
+
+Question 235
+Which three ISE posture remediation actions are supported by the Web Agent for Windows? (Choose three.)
+A.	URL Link
+B.	Automatic Remediation
+C.	Message text
+D.	AV definition update
+E.	Launch program
+F.	File Distribution
+
+Correct Answer: ACF
+Question 236
+What are three portals provided by PSN? (Choose three.)
+A.	Monitoring
+B.	Troubleshooting
+C.	Sponsor
+D.	Guest
+E.	My devices
+F.	Admin
+
+Correct Answer: CDE
+
+
+Question 237
+Refer to the exhibit.
+ 
+Which two things must be verified if authentication is failing with this error message? (Choose two.)
+A.	CA cert chain of Cisco ISE EAP certificate is installed on the trusted certs store of the client machine.
+B.	CA cert chain of the event certificate is installed on Cisco ISE.
+C.	Cisco ISE EAP identify certificate is valid.
+D.	Cisco ISE server certificate is installed on the client.
+E.	Cisco ISE HTTP/admin certificate is valid.
+
+Correct Answer: AB
+Question 238
+An engineer is investigating an issue with their Posture Run-time Services implementation. Which protocol services are used by NAC Agents to communicate with
+NAC Servers?
+A.	SWISS
+B.	IPsec
+C.	IKEv2
+D.	FIX
+
+Correct Answer: A
+Question 239
+Refer to the exhibit.
+ 
+Which statement describes this switch configuration?
+A.	802.1x is disabled on the switch port and all traffic is allowed as normal without restriction.
+B.	The switch port begins in the unauthorized state and does not allow EAPOL, Cisco Discovery Protocol, and STP traffic.
+C.	The switch port begins in the unauthorized state and allows only EAPOL, Cisco Discovery Protocol, and STP traffic.
+D.	802.1x is enabled on the switch port and the switch port ignores all traffic.
+
+Correct Answer: C
+Question 240
+Which option is a recommended agent for guest posture assessment?
+A.	Windows Web Agent
+B.	Mac OSX Agent
+C.	Mac OSX Web Agent
+D.	Windows NAC Agent
+
+Correct Answer: A
+
+
+
+Question 241
+When using endpoint access control, which two access methods are valid for authentication and authorization? (Choose two.)
+A.	Microsoft Challenge Handshake Authentication
+B.	Protected extensible authentication
+C.	MAC Authentication Bypass
+D.	Password Authentication Protocol Bypass
+E.	Web authentication
+
+Correct Answer: CE
+Question 242
+Which type of SGT classification method is required when authentication is unavailable?
+A.	Bypass
+B.	Dynamic
+C.	Static
+D.	Inline
+
+Correct Answer: C
+Question 243
+A network is seeing a posture status "unknown" for a single corporate machine on the Cisco ISE authentication report, whereas the other machines and reported as "complaint". Which option is the reason for machine being reported as "unknown"?
+A.	Posture compliance condition is missing on the machine.
+B.	Posture agent is not installed on the machine.
+C.	Posture service is disabled on Cisco ISE.
+D.	Posture policy does not support the OS.
+
+Correct Answer: B
+
+Question 244
+Which ISE deployment mode is similar to the industry standard 802.1X behavior?
+A.	Monitor mode
+B.	Low-impact mode
+C.	Policy mode
+D.	Closed mode
+
+Correct Answer: D
+Question 245
+Within a BYOD environment, when employees add devices using the My Devices Portal, which identity Group does Cisco ISE and the endpoints to?
+A.	Profiled
+B.	Registered
+C.	Employee
+D.	Guest
+
+Correct Answer: A
+Question 246
+When using CA for identity source, which method can be used to provide real-time certificate validation?
+A.	X.509
+B.	PKI
+C.	OCSP
+D.	CRL
+
+Correct Answer: D
+
+
+Question 247
+An engineer of Company A will be sending guest credentials through SMS to conference participants. Which portal must the engineer use for this task?
+A.	Sponsor
+B.	SMS
+C.	User
+D.	Guest
+
+Correct Answer: B
+Question 248
+An engineer of Company A wants to know what kind of devices are connecting to the work. Which service can be enabled on the Cisco ISE node?
+A.	MAB
+B.	Central web authentication
+C.	Profiling
+D.	Posture
+
+Correct Answer: D
+Question 249
+Which supplicants(s) and server(s) are capable of supporting EAP-CHAINING?
+A.	Cisco AnyConnect NAM and Cisco Access Control Server
+B.	Cisco Secure Services Client and Cisco Access Control Server
+C.	Cisco AnyConnect NAM and Cisco Identity Service Engine
+D.	Windows Native Supplicant and Cisco Identity Service Engine
+
+Correct Answer: C
+
+
+Question 250
+DRAG DROP -
+A security engineer is deploying Cisco ISE for a companys guest user services. Drag and drop the Cisco ISE persona on the left onto its function on the right.
+Select and Place:
+ 
+Correct Answer:
+ 
+Question 251
+Which advanced option within a WLAN must be enabled to trigger Central Web Authentication for wireless users?
+A.	Static IP tunneling
+B.	Diagnostic channel
+C.	DHCP server
+D.	AAA override
+
+Correct Answer: D
+Question 252
+When using a DHCP probe in a Cisco ISE deployment, which type of request triggers an endpoint to be reprofiled?
+A.	RENEWING
+B.	REBINDING
+C.	DHCPInform
+D.	INIT-REBOOT
+
+Correct Answer: D
+Question 253
+Which description of the use of low-impact mode in a Cisco ISE deployment is correct?
+A.	It continues to use the authentication open capabilities of the switch port, which allows traffic to enter the switch before an authentication result.
+B.	Low-impact mode must be the final phase in deploying Cisco ISE into a network environment using the phased approach.
+C.	The port does not allow any traffic before the authentication (except for EAP, Cisco Discovery Protocol, and LLDP), and then the port is assigned to specific authorization results after the authentication.
+D.	It enables authentication (with authentication open), sees exactly which devices fail and which succeed, and corrects the failed authentications before they
+
+Correct Answer: A
+Question 254
+In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.
+To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.
+Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.
+Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the
+Home page, you can access all the required screens.
+To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.
+ 
+ 
+What are two possible reasons why many Sales and IT users are unable to authenticate and access the network using their AnyConnected NAM client and EAP-
+FAST? (Choose two.)
+A.	The Dot1X authentication policy is not allowing the EAP-FAST protocol.
+B.	The IP-Corp authorization profile has the wrong Access Type configured.
+C.	The authorization profile used for the Sales users is misconfigured.
+D.	The order for the MAB authentication policy and the Dot1X authentication policy should be reversed.
+E.	Many of the IT Sales and IT user machines are not passing the ISE posture assessment.
+F.	The PERMIT_ALL_TRAFFIC DACL is missing the permit ip any any statements in the end.
+G.	The Employee_FullAccess_DACL DACL is missing the permit ip any any statement in the end.
+
+Correct Answer: AD
+
+
+Question 255
+In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.
+To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.
+Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.
+Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the
+Home page, you can access all the required screens.
+To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.
+ 
+ 
+Which statement is true?
+A.	Currently, IT users who successfully authenticate will have their packets tagged with s SGT of 3.
+B.	Currently, IT users who successfully authenticate will be assigned to VLAN 9.
+C.	Currently, any domain administrator who successfully authenticate will be assigned to VLAN 10.
+D.	Computers belonging to the secure-x domain which passes machine authentication but failed user authentication will have the Employee_Restricted_DACL applied.
+E.	Print Servers matching the Linksys-PrintServer identity group will have the following access restrictions: permit icmp any host 10.10.2.20 permit tcp any host 10.10.2.20 eq 80 permit icmp any host 10.10.3.20 permit tcp any host 10.10.3.20 eq 80
+
+Correct Answer: D
+Question 256
+Which two statements are true? (Choose two.)
+ 
+ 
+A.	The ISE is not able to successfully connect to the hq-srv.secure-x.local AD server.
+B.	The ISE internal endpoints database is used authenticate any users not in the Active Directory domain.
+C.	The ISE internal user database has two accounts enabled: student and test that maps to the Employee user identify group.
+D.	Guest_Portal_Sequence is a built-in identity source sequence.
+
+Correct Answer: BD
