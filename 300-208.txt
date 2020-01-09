@@ -1713,8 +1713,6 @@ Correct Answer: BCEF
 
 Question 171
 In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
- 
- 
 Which three statements are correct regarding the events with the 20 repeat count that occurred at 2014-05-07 00:22:48.748? (Choose three.)
 A.	The device was successfully authenticated using MAB.
 B.	The device matched the Machine_Corp authorization policy.
@@ -1728,9 +1726,8 @@ Event Details:
 continued:
  
 Question 172
-In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
-
-Which two statements are correct regarding the event that occurred at 2014-05-07 00:22:48.175? (Choose two.)
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...\n'
+'Which two statements are correct regarding the event that occurred at 2014-05-07 00:22:48.175? (Choose two.)
 A.	The DACL will permit http traffic from any host to 10.10.2.20
 B.	The DACL will permit http traffic from any host to 10.10.3.20
 C.	The DACL will permit icmp traffic from any host to 10.10.2.20
@@ -1740,9 +1737,8 @@ E.	The DACL will permit https traffic from any host to 10.10.3.20
 Correct Answer: AE
 
 Question 173
-In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...
-
-Which two statements are correct regarding the event that occurred at 2014-05-07 00:16:55.393? (Choose two.)
+In this simulation, you are task to examine the various authentication events using the ISE GUI. For example, you should see events like Authentication succeeded. Authentication failed and etc...\n'
+'Which two statements are correct regarding the event that occurred at 2014-05-07 00:16:55.393? (Choose two.)
 A.	The failure reason was user entered the wrong username.
 B.	The supplicant used the PAP authentication method.
 C.	The username entered was it1.
@@ -1938,8 +1934,8 @@ D.	It enforces the use of MSCHAPv2 or EAP-TLS for 802.1X authentication.
 Correct Answer: A
 
 Question 193
-A user configured a Cisco Identity Service Engine and switch to work with downloadable access list for wired dot1x users, though it is failing to work.
-Which command must be added to address the issue?
+A user configured a Cisco Identity Service Engine and switch to work with downloadable access list for wired dot1x users, though it is failing to work.\n'
+'Which command must be added to address the issue?
 A.	dot1x pae authenticator
 B.	aaa authentication dot1x default group radius
 C.	ip device tracking
@@ -2230,7 +2226,7 @@ B.	Authorization
 C.	Accounting
 D.	Collector
 
-Correct Answer: D
+Correct Answer: C
 
 Question 223
 What two values does Cisco recommend you adjust and test to set the optimal timeout value for your network’s specific 802.1X MAB deployment?
@@ -2288,7 +2284,7 @@ B.	The authentication request contains only a password.
 C.	There is separate authentication and authorization request packet.
 D.	The authentication and authorization requests are grouped in a single packet.
 
-Correct Answer: B
+Correct Answer: D
 
 Question 229
 A company has implemented a dual SSID BYOD design. A provisioning SSID is used for user registration, and an employee SSID is used for company network access. Which controller option must be enabled to allow a user to switch immediately from the provisioning SSID to the employee SSID after registration has been completed?
@@ -2381,8 +2377,7 @@ E.	Cisco ISE HTTP/admin certificate is valid.
 Correct Answer: AB
 
 Question 238
-An engineer is investigating an issue with their Posture Run-time Services implementation. Which protocol services are used by NAC Agents to communicate with
-NAC Servers?
+An engineer is investigating an issue with their Posture Run-time Services implementation. Which protocol services are used by NAC Agents to communicate with NAC Servers?
 A.	SWISS
 B.	IPsec
 C.	IKEv2
@@ -2454,7 +2449,7 @@ B.	Registered
 C.	Employee
 D.	Guest
 
-Correct Answer: A
+Correct Answer: B
 
 Question 246
 When using CA for identity source, which method can be used to provide real-time certificate validation?
@@ -2527,16 +2522,13 @@ D.	It enables authentication (with authentication open), sees exactly which devi
 Correct Answer: A
 
 Question 254
-In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.
-To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.
-Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.
-Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the
-Home page, you can access all the required screens.
-To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.
- 
+'In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.\n'
+'To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.\n'
+'Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.\n'
+'Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the Home page, you can access all the required screens.\n'
+'To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.\n\n'
 
-What are two possible reasons why many Sales and IT users are unable to authenticate and access the network using their AnyConnected NAM client and EAP-
-FAST? (Choose two.)
+'What are two possible reasons why many Sales and IT users are unable to authenticate and access the network using their AnyConnected NAM client and EAP-FAST? (Choose two.)'
 A.	The Dot1X authentication policy is not allowing the EAP-FAST protocol.
 B.	The IP-Corp authorization profile has the wrong Access Type configured.
 C.	The authorization profile used for the Sales users is misconfigured.
@@ -2548,15 +2540,12 @@ G.	The Employee_FullAccess_DACL DACL is missing the permit ip any any statement 
 Correct Answer: AD
 
 Question 255
-In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.
-To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.
-Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.
-Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the
-Home page, you can access all the required screens.
-To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.
- 
- 
-Which statement is true?
+'In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.\n'
+'To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.\n'
+'Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.\n'
+'Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the Home page, you can access all the required screens.\n'
+'To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.\n\n'
+'Which statement is true?'
 A.	Currently, IT users who successfully authenticate will have their packets tagged with s SGT of 3.
 B.	Currently, IT users who successfully authenticate will be assigned to VLAN 9.
 C.	Currently, any domain administrator who successfully authenticate will be assigned to VLAN 10.
