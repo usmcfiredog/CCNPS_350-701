@@ -490,6 +490,7 @@ C.	1. Generate a signing request and save it as a file.
 D.	1. Generate a signing request and save it as a file.
 2. Download the CA server certificate.
 3. Access the CA server and submit the ISE request.
+4. Install the issued certificate on the ISE.
 
 Correct Answer: D
 
@@ -515,6 +516,7 @@ C.	1. With a Web browser, establish an HTTP connection to the WLC pod.
 3. Enter ACLs and Authentication methods to begin the configuration.
 D.	1. With a Web browser connect, establish an HTTPS connection to the WLC pod.
 2. Navigate to Security > Authentication > New.
+3. Enter server values to begin the configuration
 
 Correct Answer: D
 
@@ -574,6 +576,7 @@ B.	1. Choose Network Resources > Network Devices and AAA Clients.
 C.	1. Choose Network Resources > Network Devices and AAA Clients.
 2. Click Manage.
 D.	1. Choose Network Devices and AAA Clients > Network Resources.
+2. Click Install
 
 Correct Answer: B
 
@@ -596,8 +599,6 @@ D.	It is used for posture assessment, so the Cisco ISE changes the user profile 
 E.	It allows multiple users to authenticate at the same time.
 
 Correct Answer: CD
-
-Correct Answer: C
 
 Question 62
 In an 802.1X authorization process, a network access device provides which three functions? (Choose three.)
@@ -749,21 +750,22 @@ Correct Answer: D
 
 Question 78
 What steps must you perform to deploy a CA-signed identity certificate on an ISE device?
-A.	1. Download the CA server certificate and install it on ISE.
-2. Generate a signing request and save it as a file.
-3. Access the CA server and submit the CA request.
-4. Install the issued certificate on the ISE.
-B.	1. Download the CA server certificate and install it on ISE.
-2. Generate a signing request and save it as a file.
-3. Access the CA server and submit the CSR.
-4. Install the issued certificate on the CA server.
-C.	1. Generate a signing request and save it as a file.
-2. Download the CA server certificate and install it on ISE.
-3. Access the ISE server and submit the CA request.
-4. Install the issued certificate on the CA server.
-D.	1. Generate a signing request and save it as a file.
-2. Download the CA server certificate and install it on ISE.
-3. Access the CA server and submit the CSR.
+'1. Download the CA server certificate and install it on ISE.\n'
+'2. Generate a signing request and save it as a file.\n'
+'3. Access the CA server and submit the CA request.\n'
+'4. Install the issued certificate on the ISE.'
+'1. Download the CA server certificate and install it on ISE.\n'
+'2. Generate a signing request and save it as a file.\n'
+'3. Access the CA server and submit the CSR.\n'
+'4. Install the issued certificate on the CA server.'
+'1. Generate a signing request and save it as a file.\n'
+'2. Download the CA server certificate and install it on ISE.\n'
+'3. Access the ISE server and submit the CA request.\n'
+'4. Install the issued certificate on the CA server.'
+'1. Generate a signing request and save it as a file.\n'
+'2. Download the CA server certificate and install it on ISE.\n'
+'3. Access the CA server and submit the CSR.\n'
+'4. Install the issued certificate on the ISE.'
 
 Correct Answer: D
 
