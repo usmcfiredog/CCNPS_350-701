@@ -2555,9 +2555,16 @@ E.	Print Servers matching the Linksys-PrintServer identity group will have the f
 Correct Answer: D
 
 Question 256
+Scenario:
+Currently, many users are expehecing problems using their AnyConnect NAM supplicant to login to the network. The rr desktop support staff have already examined and vehfed the AnyConnect NAM configuration is correct.
+In this simulation, you are tasked to examine the various ISE GUI screens to determine the ISE current configurations to help isolate the problems. Based on the current ISE configurations, you will need to answer three multiple choice questions.
+To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.
+Not all the ISE GUI screen are operational in this simulation and some of the ISE GUI operations have been reduced in this simulation.
+Not all the links on each of the ISE GUI screen works, if some of the links are not working on a screen, click Home to go back to the Home page first. From the Home page, you can access all the required screens.
+To view some larger GUI screens, use the simulation window scroll bars. Some of the larger GUI screens only shows partially but will include all information required to complete this simulation.
+
 Which two statements are true? (Choose two.)
- 
- 
+
 A.	The ISE is not able to successfully connect to the hq-srv.secure-x.local AD server.
 B.	The ISE internal endpoints database is used authenticate any users not in the Active Directory domain.
 C.	The ISE internal user database has two accounts enabled: student and test that maps to the Employee user identify group.
