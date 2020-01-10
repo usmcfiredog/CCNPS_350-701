@@ -803,7 +803,7 @@ qaList = [
         ['dynamic ACLs',
          'SGACL',
          'certificate revocation'],
-        'dynamic ACLs'),
+        'CoA'),
     QA('You discover that the Cisco ISE is failing to connect to the Active Directory server. Which option is a possible cause of the problem?',
         ['There is a certificate mismatch between Cisco ISE and Active Directory.',
          'NAT statements required for Active Directory are configured incorrectly.',
@@ -970,10 +970,26 @@ qaList = [
          'MAB and if authentication failed continue'],
         'MAB and if user not found continue'),
     QA('Which option is the correct redirect-ACL for Wired-CWA, with 10.201.228.76 being the Cisco ISE IP address?',
-        ['ip access-l ACL-WEBAUTH-REDIRECT permit udp any any eq domain permit ip any host 10.201.228.76 deny tcp any any eq 80 permit tcp any any eq 443',
-         'ip access-l ACL-WEBAUTH-REDIRECT permit udp any any eq domain deny ip any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443',
-         'ip access-l ACL-WEBAUTH-REDIRECT deny udp any any eq domain permit tcp any host 10.201.228.76 eq 8443 deny ip any host 10.201.228.76 permit tcp any any eq 80'],
-        'ip access-l ACL-WEBAUTH-REDIRECT deny udp any any eq domain deny ip any host 10.201.228.76 permit tcp any any eq 80 permit tcp any any eq 443'),
+        ['ip access-l ACL-WEBAUTH-REDIRECT\n'
+         'permit udp any any eq domain\n'
+         'permit ip any host 10.201.228.76\n'
+         'deny tcp any any eq 80\n'
+         'permit tcp any any eq 443',
+         'ip access-l ACL-WEBAUTH-REDIRECT\n'
+         'permit udp any any eq domain\n'
+         'deny ip any host 10.201.228.76\n'
+         'permit tcp any any eq 80\n'
+         'permit tcp any any eq 443',
+         'ip access-l ACL-WEBAUTH-REDIRECT\n'
+         'deny udp any any eq domain\n'
+         'permit tcp any host 10.201.228.76 eq 8443\n'
+         'deny ip any host 10.201.228.76\n'
+         'permit tcp any any eq 80'],
+        'ip access-l ACL-WEBAUTH-REDIRECT\n'
+        'deny udp any any eq domain\n'
+        'deny ip any host 10.201.228.76\n'
+        'permit tcp any any eq 80\n'
+        'permit tcp any any eq 443'),
     QA('How many bits are in a security group tag?',
         ['64', '8', '32'], '16'),
     QA('Which option is the correct format of username in MAB authentication?',
@@ -1106,7 +1122,7 @@ qaList = [
         ['Closed mode', 'Application mode', 'Low-impact mode'], 'Monitor mode'),
     QA('How does the device sensor send information to a RADIUS server?',
         ['Analyzer', 'Authorization', 'Collector'], 'Accounting'),
-    QA('What two values does Cisco recommend you adjust and test to set the optimal timeout value for your network’s specific 802.1X MAB deployment?',
+    QA('What two values does Cisco recommend you adjust and test to set the optimal timeout value for your network’s specific 802.1X MAB deployment? (Choose two.)',
         ['Supp-timeout', 'Max-req', 'Server-timeout'],
         'Max-reath-req', 'Tx-period'),
     QA('Which RADIUS attribute can be used to dynamically assign the inactivity active timer for MAB users from Cisco ISE node?',
@@ -1178,12 +1194,6 @@ qaList = [
         'Sponsor',
         'Guest',
         'My devices'),
-    QA('Which two things must be verified if authentication is failing with this error message? (Choose two.)',
-        ['Cisco ISE EAP identify certificate is valid.',
-         'Cisco ISE server certificate is installed on the client.',
-         'Cisco ISE HTTP/admin certificate is valid.'],
-        'CA cert chain of Cisco ISE EAP certificate is installed on the trusted certs store of the client machine.',
-        'CA cert chain of the event certificate is installed on Cisco ISE.'),
     QA('An engineer is investigating an issue with their Posture Run-time Services implementation. Which protocol services are used by NAC Agents to communicate with NAC Servers?',
         ['IPSec', 'IKEv2', 'Fix'], 'SWISS'),
     QA('Which statement describes this switch configuration?',
@@ -1249,7 +1259,7 @@ qaList = [
     QA('Which description of the use of low-impact mode in a Cisco ISE deployment is correct?',
         ['Low-impact mode must be the final phase in deploying Cisco ISE into a network environment using the phased approach.',
          'The port does not allow any traffic before the authentication (except for EAP, Cisco Discovery Protocol, and LLDP), and then the port is assigned to specific authorization results after the authentication.',
-         'It enables authentication (with authentication open), sees exactly which devices fail and which succeed, and corrects the failed authentications before they'],
+         'It enables authentication (with authentication open), sees exactly which devices fail and which succeed, and corrects the failed authentications before they cause any problems.'],
         'It continues to use the authentication open capabilities of the switch port, which allows traffic to enter the switch before an authentication result.'),
     QA('In this simulation, you will need to answer three multiple choice questions by examining the current ISE configurations using the ISE GUI.\n'
         'To access the ISE GUI, click on the ISE icon in the topology diagram to access the ISE GUI.\n'
@@ -1285,7 +1295,8 @@ qaList = [
 corrCount = 0
 qnumber = 1
 random.shuffle(qaList)
-for qaItem in qaList:
+
+for qaItem in qaList[:60]:
     print(f'Question {qnumber}\n' + qaItem.question)
     if qaItem.corrAnsw5 is not None:
         possible = qaItem.otherAnsw + \
@@ -1459,7 +1470,7 @@ for qaItem in qaList:
                 f'and {qaItem.corrAnsw2}')
         print('')
     else:
-        print('Please enter the number of your first answer:')
+        print('Please enter the number of your answer:')
         userAnsw = input()
         while not userAnsw.isdigit():
             print('That was not a number. '
@@ -1475,7 +1486,8 @@ for qaItem in qaList:
         print('')
     qnumber += 1
 
-print('You answered ' + str(corrCount) + ' of ' + str(len(qaList)) + ' questions correctly.')
+print(f'You answered {corrCount} out of 60 questions correctly.')
+print(f'An approximate score of {int(corrCount/60*1000)}')
 
 
 # SPARE QUESTION
@@ -1487,3 +1499,9 @@ print('You answered ' + str(corrCount) + ' of ' + str(len(qaList)) + ' questions
 #            'Client root certificate is not included in the Certificate '
 #            'Store'],
 #         'EAP-TLS is not checked in the Allowed Protocols list'),
+# QA('Which two things must be verified if authentication is failing with this error message? (Choose two.)',
+#     ['Cisco ISE HTTPS/admin certificate is valid.',
+#      'CA cert chain of the client certificate is installed on Cisco ISE.',
+#      'Cisco ISE server certificate is installed on the client.'],
+#     'Cisco ISE EAP identity certificate is valid.',
+#     'CA cert chain of Cisco ISE EAP certificate is installed on the trusted certs store of the client machine.'),
