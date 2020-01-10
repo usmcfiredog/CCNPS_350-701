@@ -21,7 +21,7 @@ while not numOfQs.isdigit():
     numOfQs = input(f'Enter a number from 1 to {len(qaList)}: ')
 
 for qaItem in qaList[:int(numOfQs)]:
-    print(f'Question {qnumber}\n' + qaItem.question)
+    print(f'\nQuestion {qnumber}\n' + qaItem.question)
     if qaItem.corrAnsw5 is not None:
         possible = qaItem.otherAnsw + \
             [qaItem.corrAnsw] + [qaItem.corrAnsw2] + [qaItem.corrAnsw3] + \
