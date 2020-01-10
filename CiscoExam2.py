@@ -12,7 +12,7 @@ os.system('color')
 qCorrectColor = '\033[92m'
 qWrongColor = '\033[91m'
 endColor = '\033[0m'
-corrAnsws = '\033[94m\033[4m'
+corrAnsws = '\033[4m'
 
 print('\nHow many questions would you like to answer?')
 numOfQs = input(f'Enter a number from 1 to {len(qaList)}: ')
@@ -193,7 +193,7 @@ for qaItem in qaList[:int(numOfQs)]:
     qnumber += 1
 
 print(
-    f'You answered {corrAnsws}{str(corrCount)}{endColor} out of {int(numOfQs)} questions correctly.')
+    f'You answered {str(corrCount)} out of {int(numOfQs)} questions correctly.')
 print(f'An approximate score of {int(corrCount/int(numOfQs)*1000)}')
 
 
