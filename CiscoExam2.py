@@ -14,7 +14,7 @@ qWrongColor = '\033[91m'
 endColor = '\033[0m'
 corrAnsws = '\033[94\033[4m'
 
-print('How many questions would you like to answer?')
+print('\nHow many questions would you like to answer?')
 numOfQs = input(f'Enter a number from 1 to {len(qaList)}: ')
 while not numOfQs.isdigit():
     print('That was not a number. Please try again:')
