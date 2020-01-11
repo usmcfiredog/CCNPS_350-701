@@ -1321,3 +1321,20 @@ qaList = [
         'The ISE internal endpoints database is used authenticate any users not in the Active Directory domain.',
         'Guest_Portal_Sequence is a built-in identity source sequence.'),
 ]
+
+
+# SPARE QUESTION
+#    QA('Changes were made to the ISE server while troubleshooting, and now all wireless certificate authentications are failing. Logs indicate an EAP failure.\n'
+#         'What is the most likely cause of the problem?',
+#         ['Certificate authentication profile is not configured in the Identity Store',
+#            'MS-CHAPv2-is not checked in the Allowed Protocols list',
+#            'Default rule denies all traffic',
+#            'Client root certificate is not included in the Certificate '
+#            'Store'],
+#         'EAP-TLS is not checked in the Allowed Protocols list'),
+# QA('Which two things must be verified if authentication is failing with this error message? (Choose two.)',
+#     ['Cisco ISE HTTPS/admin certificate is valid.',
+#      'CA cert chain of the client certificate is installed on Cisco ISE.',
+#      'Cisco ISE server certificate is installed on the client.'],
+#     'Cisco ISE EAP identity certificate is valid.',
+#     'CA cert chain of Cisco ISE EAP certificate is installed on the trusted certs store of the client machine.'),

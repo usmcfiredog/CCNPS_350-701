@@ -147,22 +147,22 @@ for qaItem in qaList[:int(numOfQs)]:
                   'Please enter the number of your answer:')
             userAnsw4 = input()
         userAnsw4 = int(userAnsw4)
-        if (possible[userAnsw - 1] == qaItem.corrAnsw or
-            possible[userAnsw - 1] == qaItem.corrAnsw2 or
-            possible[userAnsw - 1] == qaItem.corrAnsw3 or
-            possible[userAnsw - 1] == qaItem.corrAnsw4) and \
-            (possible[userAnsw2 - 1] == qaItem.corrAnsw or
-             possible[userAnsw2 - 1] == qaItem.corrAnsw2 or
-             possible[userAnsw2 - 1] == qaItem.corrAnsw3 or
-             possible[userAnsw2 - 1] == qaItem.corrAnsw4) and \
-                (possible[userAnsw3 - 1] == qaItem.corrAnsw or
-                 possible[userAnsw3 - 1] == qaItem.corrAnsw2 or
-                 possible[userAnsw3 - 1] == qaItem.corrAnsw3 or
-                 possible[userAnsw3 - 1] == qaItem.corrAnsw4) and \
-                (possible[userAnsw4 - 1] == qaItem.corrAnsw or
-                 possible[userAnsw4 - 1] == qaItem.corrAnsw2 or
-                 possible[userAnsw4 - 1] == qaItem.corrAnsw3 or
-                 possible[userAnsw4 - 1] == qaItem.corrAnsw4):
+        if (possible[userAnsw - 1] == qaItem.corrAnsw
+            or possible[userAnsw - 1] == qaItem.corrAnsw2
+            or possible[userAnsw - 1] == qaItem.corrAnsw3
+            or possible[userAnsw - 1] == qaItem.corrAnsw4) and \
+            (possible[userAnsw2 - 1] == qaItem.corrAnsw
+             or possible[userAnsw2 - 1] == qaItem.corrAnsw2
+             or possible[userAnsw2 - 1] == qaItem.corrAnsw3
+             or possible[userAnsw2 - 1] == qaItem.corrAnsw4) and \
+                (possible[userAnsw3 - 1] == qaItem.corrAnsw
+                 or possible[userAnsw3 - 1] == qaItem.corrAnsw2
+                 or possible[userAnsw3 - 1] == qaItem.corrAnsw3
+                 or possible[userAnsw3 - 1] == qaItem.corrAnsw4) and \
+                (possible[userAnsw4 - 1] == qaItem.corrAnsw
+                 or possible[userAnsw4 - 1] == qaItem.corrAnsw2
+                 or possible[userAnsw4 - 1] == qaItem.corrAnsw3
+                 or possible[userAnsw4 - 1] == qaItem.corrAnsw4):
             print(f'{qCorrectColor}Your answer was correct.{endColor}')
             corrCount += 1
         else:
@@ -195,15 +195,15 @@ for qaItem in qaList[:int(numOfQs)]:
                   'Please enter the number of your answer:')
             userAnsw3 = input()
         userAnsw3 = int(userAnsw3)
-        if (possible[userAnsw - 1] == qaItem.corrAnsw or
-            possible[userAnsw - 1] == qaItem.corrAnsw2 or
-            possible[userAnsw - 1] == qaItem.corrAnsw3) and \
-            (possible[userAnsw2 - 1] == qaItem.corrAnsw or
-             possible[userAnsw2 - 1] == qaItem.corrAnsw2 or
-             possible[userAnsw2 - 1] == qaItem.corrAnsw3) and \
-                (possible[userAnsw3 - 1] == qaItem.corrAnsw or
-                 possible[userAnsw3 - 1] == qaItem.corrAnsw2 or
-                 possible[userAnsw3 - 1] == qaItem.corrAnsw3):
+        if (possible[userAnsw - 1] == qaItem.corrAnsw
+            or possible[userAnsw - 1] == qaItem.corrAnsw2
+            or possible[userAnsw - 1] == qaItem.corrAnsw3) and \
+            (possible[userAnsw2 - 1] == qaItem.corrAnsw
+             or possible[userAnsw2 - 1] == qaItem.corrAnsw2
+             or possible[userAnsw2 - 1] == qaItem.corrAnsw3) and \
+                (possible[userAnsw3 - 1] == qaItem.corrAnsw
+                 or possible[userAnsw3 - 1] == qaItem.corrAnsw2
+                 or possible[userAnsw3 - 1] == qaItem.corrAnsw3):
             print(f'{qCorrectColor}Your answer was correct.{endColor}')
             corrCount += 1
         else:
@@ -228,10 +228,10 @@ for qaItem in qaList[:int(numOfQs)]:
                   'Please enter the number of your answer:')
             userAnsw2 = input()
         userAnsw2 = int(userAnsw2)
-        if (possible[userAnsw - 1] == qaItem.corrAnsw or
-            possible[userAnsw - 1] == qaItem.corrAnsw2) and \
-                (possible[userAnsw2 - 1] == qaItem.corrAnsw or
-                 possible[userAnsw2 - 1] == qaItem.corrAnsw2):
+        if (possible[userAnsw - 1] == qaItem.corrAnsw
+            or possible[userAnsw - 1] == qaItem.corrAnsw2) and \
+                (possible[userAnsw2 - 1] == qaItem.corrAnsw
+                 or possible[userAnsw2 - 1] == qaItem.corrAnsw2):
             print(f'{qCorrectColor}Your answer was correct.{endColor}')
             corrCount += 1
         else:
