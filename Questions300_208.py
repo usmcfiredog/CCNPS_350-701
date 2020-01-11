@@ -216,35 +216,35 @@ qaList = [
         'They interact with the posture service to enforce endpoint security policies.',
         'They evaluate clients against posture policies, to enforce requirements.'),
     QA('What steps must you perform to deploy a CA-signed identify certificate on an ISE device?\n',
-        ['1. Download the CA server certificate.\n'
+        ['\n1. Download the CA server certificate.\n'
          '2. Generate a signing request and save it as a file.\n'
          '3. Access the CA server and submit the ISE request.\n'
          '4. Install the issued certificate on the ISE.',
-         '1. Download the CA server certificate.\n'
+         '\n1. Download the CA server certificate.\n'
          '2. Generate a signing request and save it as a file.\n'
          '3. Access the CA server and submit the ISE request.\n'
          '4. Install the issued certificate on the CA server.',
-         '1. Generate a signing request and save it as a file.\n'
+         '\n1. Generate a signing request and save it as a file.\n'
          '2. Download the CA server certificate.\n'
          '3. Access the ISE server and submit the CA request.\n'
          '4. Install the issued certificate on the CA server.'],
-        '1. Generate a signing request and save it as a file.\n'
+        '\n1. Generate a signing request and save it as a file.\n'
         '2. Download the CA server certificate.\n'
         '3. Access the CA server and submit the ISE request.\n'
         '4. Install the issued certificate on the ISE.'),
     QA('What implementation must be added to the WLC to enable 802.1X and CoA for wireless endpoints?\n',
         ['a policy server', 'a router', 'an ACL'], 'the ISE'),
     QA('What are the initial steps must you perform to add the ISE to the WLC?\n',
-        ['1. With a Web browser, establish an HTTP connection to the WLC pod.\n'
+        ['\n1. With a Web browser, establish an HTTP connection to the WLC pod.\n'
          '2. Navigate to Administration > Authentication > New.\n'
          '3. Enter server values to begin the configuration.',
-         '1. With a Web browser, establish an FTP connection to the WLC pod.\n'
+         '\n1. With a Web browser, establish an FTP connection to the WLC pod.\n'
          '2. Navigate to Security > Administration > New.\n'
          '3. Add additional security features for FTP authentication.',
-         '1. With a Web browser, establish an HTTP connection to the WLC pod.\n'
+         '\n1. With a Web browser, establish an HTTP connection to the WLC pod.\n'
          '2. Navigate to Authentication > New.\n'
          '3. Enter ACLs and Authentication methods to begin the configuration.'],
-        '1. With a Web browser connect, establish an HTTPS connection to the WLC pod.\n'
+        '\n1. With a Web browser connect, establish an HTTPS connection to the WLC pod.\n'
         '2. Navigate to Security > Authentication > New.\n'
         '3. Enter server values to begin the configuration'),
     QA('Which command configures console port authorization under line con 0?\n',
@@ -274,13 +274,13 @@ qaList = [
         'It allows the ISE to send a CoA request that indicates when the user is authenticated.',
         'It is used for posture assessment, so the ISE changes the user profile based on posture result.'),
     QA('What are the initial steps to configure an ACS as a TACACS server?\n',
-        ['1. Choose Network Devices and AAA Clients > Network Resources.\n'
+        ['\n1. Choose Network Devices and AAA Clients > Network Resources.\n'
          '2. Click Create.',
-         '1. Choose Network Resources > Network Devices and AAA Clients.\n'
+         '\n1. Choose Network Resources > Network Devices and AAA Clients.\n'
          '2. Click Manage.',
-         '1. Choose Network Devices and AAA Clients > Network Resources.\n'
+         '\n1. Choose Network Devices and AAA Clients > Network Resources.\n'
          '2. Click Install'],
-        '1. Choose Network Resources > Network Devices and AAA Clients.\n'
+        '\n1. Choose Network Resources > Network Devices and AAA Clients.\n'
         '2. Click Create.'),
     QA('Which two statements about administrative access to the Cisco Secure ACS SE are true? (Choose two.)\n',
         ['The Cisco Secure ACS SE supports command-line connections through a serial-port connection.',
@@ -374,19 +374,19 @@ qaList = [
     QA('Which network component would issue the CoA?\n',
         ['switch', 'endpoint', 'Admin Node'], 'Policy Service Node'),
     QA('What steps must you perform to deploy a CA-signed identity certificate on an ISE device?\n',
-        ['1. Download the CA server certificate and install it on ISE.\n'
+        ['\n1. Download the CA server certificate and install it on ISE.\n'
          '2. Generate a signing request and save it as a file.\n'
          '3. Access the CA server and submit the CA request.\n'
          '4. Install the issued certificate on the ISE.',
-         '1. Download the CA server certificate and install it on ISE.\n'
+         '\n1. Download the CA server certificate and install it on ISE.\n'
          '2. Generate a signing request and save it as a file.\n'
          '3. Access the CA server and submit the CSR.\n'
          '4. Install the issued certificate on the CA server.',
-         '1. Generate a signing request and save it as a file.\n'
+         '\n1. Generate a signing request and save it as a file.\n'
          '2. Download the CA server certificate and install it on ISE.\n'
          '3. Access the ISE server and submit the CA request.\n'
          '4. Install the issued certificate on the CA server.'],
-        '1. Generate a signing request and save it as a file.\n'
+        '\n1. Generate a signing request and save it as a file.\n'
         '2. Download the CA server certificate and install it on ISE.\n'
         '3. Access the CA server and submit the CSR.\n'
         '4. Install the issued certificate on the ISE.'),
@@ -1045,7 +1045,7 @@ qaList = [
          'framed-IP-address'],
         'host-name',
         'dhcp-client-identifier'),
-    QA('Which command on the switch ensures that the Service-Type attribute is sent with all Radius authentication request?\n',
+    QA('Which command on the switch ensures that the Service-Type attribute is sent with all RADIUS authentication request?\n',
         ['radius-server attribute 25 access-request include',
          'radius-server attribute 31 send nas-port-detail',
          'radius-server attribute 8 include-in-access-req'],
