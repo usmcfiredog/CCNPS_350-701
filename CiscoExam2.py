@@ -261,4 +261,4 @@ for qaItem in qaList[:int(numOfQs)]:
 print(
     f'You answered {str(corrCount)} out of {int(numOfQs)} questions correctly.'
 )
-print(f'An approximate score of {int(corrCount/int(numOfQs)*1000)}')
+print(f'An approximate score of {int(corrCount/int(numOfQs)*100)}%')
